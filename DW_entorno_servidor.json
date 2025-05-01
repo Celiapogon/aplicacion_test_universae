@@ -1,0 +1,1737 @@
+[
+    {
+        "titulo": "UNIDAD 1: INTRODUCCION\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "¿Qué es un IDE? \r",
+                "opciones": {
+                    "A": "Una plataforma creada para el desarrollo de aplicaciones, incluyendo librerías y metodologías.",
+                    "B": "Un tipo de malware que secuestra de alguna manera la configuración del navegador pudiendo mostrar publicidad.",
+                    "C": "Conjunto de reglas que establece la comunicación entre dos sistemas diferentes.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Una plataforma creada para el desarrollo de aplicaciones, incluyendo librerías y metodologías. \r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "Common Gateway Interface: \r",
+                "opciones": {
+                    "A": "Permite ejecutar código en un servidor web.",
+                    "B": "Es un protocolo de HTTPS.",
+                    "C": "Hace referencia a la arquitectura de tres capas.",
+                    "D": "Todas las anteriores son incorrectas, CGI es un concepto matemático. "
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Permite ejecutar código en un servidor web.  \r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "Django: \r",
+                "opciones": {
+                    "A": "Es un framework.",
+                    "B": "Es un IDE.",
+                    "C": "Es un protocolo.",
+                    "D": "Es un tipo de servidor."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Es un framework. \r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Eclipse PDT es:  \r",
+                "opciones": {
+                    "A": "La versión de Eclipse para HTML.",
+                    "B": "La versión de Eclipse para Apdana.",
+                    "C": "La versión de Eclipse para XAMPP.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores es correcta. \r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "En el sistema de tres capas la capa de apertura: \r",
+                "opciones": {
+                    "A": "Hace referencia al cliente o navegador.",
+                    "B": "Hace referencia al servidor web.",
+                    "C": "Hace referencia al servidor BD.",
+                    "D": "Ninguna de las anteriores, no existe esa capa."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores, no existe esa capa. \r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "En un servidor web en un modelo cliente-servidor suele tener como intermediario: \r",
+                "opciones": {
+                    "A": "Un navegador.",
+                    "B": "Un buscador.",
+                    "C": "No posee intermediarios.",
+                    "D": "Posee intermediarios, pero ninguno de los anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Un navegador. \r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "La arquitectura en tres partes se basa en las capas de: \r",
+                "opciones": {
+                    "A": "Presentación, negocio y cliente.",
+                    "B": "Apertura, negocio y cliente.",
+                    "C": "Apertura, cierre y cliente.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores. \r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "La generación dinámica de una página web se basa, principalmente en el empleo de: \r",
+                "opciones": {
+                    "A": "HTML.",
+                    "B": "XML.",
+                    "C": "PHP.",
+                    "D": "HTTP."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "PHP.  \r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "La versión segura de HTTP es: \r",
+                "opciones": {
+                    "A": "HTTPM.",
+                    "B": "HTTPS.",
+                    "C": "HTTPN.",
+                    "D": "HTTPC."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "HTTPS. \r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Servlets permite: \r",
+                "opciones": {
+                    "A": "Permite ejecutar código en un servidor web.",
+                    "B": "Es un protocolo de HTTPS.",
+                    "C": "Hace referencia a la arquitectura de tres capas.",
+                    "D": "Todas las anteriores son incorrectas. "
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Permite ejecutar código en un servidor web.  \r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 2: INTRODUCCION AL LENGUAJE PHP\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "El operador “===!” Hace referencia a:\r",
+                "opciones": {
+                    "A": "Elementos idénticos.",
+                    "B": "Elementos no idénticos.",
+                    "C": "Elementos iguales y relacionados.",
+                    "D": "Ninguna de las anteriores, no existe ese operador."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores, no existe ese operador.\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "EN PHP las excepciones aparecieron en:\r",
+                "opciones": {
+                    "A": "PHP 4.",
+                    "B": "PHP 5.",
+                    "C": "PHP 6.",
+                    "D": "PHP 7."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "PHP 7.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "En PHP los comentarios:\r",
+                "opciones": {
+                    "A": "No existen.",
+                    "B": "Existe solo un tipo.",
+                    "C": "Existen dos tipos.",
+                    "D": "Existen dos tipos, marcados con \/* y *\/ o \/\/ y $ ."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Existen dos tipos.\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "error_reporting() es:\r",
+                "opciones": {
+                    "A": "Una función que permite cambiar el valor de la directiva error_reporting en tiempo de ejecución.",
+                    "B": "La devolución recibida al intentar cambiar el valor de la directiva error_reporting en tiempo de ejecución.",
+                    "C": "Una función que devuelve TRUE si el valor de la directiva error_reporting Posee datos booleanos.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Una función que permite cambiar el valor de la directiva error_reporting en tiempo de ejecución.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "La función predefinida isset($var):\r",
+                "opciones": {
+                    "A": "Devuelve TRUE si $var es NULL, y FALSE en otro caso.",
+                    "B": "Devuelve TRUE si $var ya ha sido declarada y no tiene valor NULL, FALSE en otro caso.",
+                    "C": "Elimina la variable, dejará de estar como inicializada.",
+                    "D": "Devuelve TRUE si $var no ha sido inicializada o su valor es FALSE, devolverá FALSE en cualquier otro caso."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Devuelve TRUE si $var ya ha sido declarada y no tiene valor NULL, FALSE en otro caso.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "La sintaxis de PHP es muy similar a:\r",
+                "opciones": {
+                    "A": "Java y C.",
+                    "B": "HTML y XML.",
+                    "C": "IDE y XML.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Java y C.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Las constantes se definen con:\r",
+                "opciones": {
+                    "A": "cons()",
+                    "B": "define()",
+                    "C": "boolean()",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "define()\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Los datos resource:\r",
+                "opciones": {
+                    "A": "Son un tipo de dato especial utilizado para representar funciones de callback.",
+                    "B": "Se utilizan para representar recursos externos, como, por ejemplo, una conexión a una base de datos.",
+                    "C": "Son un tipo de dato basado en objetos.",
+                    "D": "Se utilizan para representar una variable que no ha sido inicializada."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Se utilizan para representar recursos externos, como, por ejemplo, una conexión a una base de datos.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Para abrir un bloque en PHP se emplea la etiqueta: \r",
+                "opciones": {
+                    "A": "<&iquest;?php",
+                    "B": "<&iquest;php",
+                    "C": "<¡!php",
+                    "D": "<?php"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "<?php\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Un error de tipo E_NOTICE surge cuando:\r",
+                "opciones": {
+                    "A": "Se produce una variable no inicializada.",
+                    "B": "Se intenta cambiar una constante.",
+                    "C": "Se inserta una variable sin valor.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Se produce una variable no inicializada.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 3: DESARROLLO DE APLICACIONES CON PHP\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "Cuando se trabaja con ficheros, la función rewind() sirve para:\r",
+                "opciones": {
+                    "A": "Cerrar el fichero y guardar los cambios",
+                    "B": "Situarse en el byte inmediatamente anterior",
+                    "C": "Que el fichero se abra en modo solo lectura",
+                    "D": "Situar el indicador al principio del fichero"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Situar el indicador al principio del fichero\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "El método GET se utiliza para:\r",
+                "opciones": {
+                    "A": "Solicitar páginas web a un servidor",
+                    "B": "Enviar formularios",
+                    "C": "Comprobar el usuario tiene la sesión iniciada",
+                    "D": "Todas son correctas."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Solicitar páginas web a un servidor\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "Los documentos que se almacenan en MongoDB son:\r",
+                "opciones": {
+                    "A": "JSON",
+                    "B": "BSON",
+                    "C": "XML",
+                    "D": "HTML"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "BSON\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Para automatizar las pruebas de código en PHP se utiliza la librería:\r",
+                "opciones": {
+                    "A": "PDO",
+                    "B": "PHPUnit",
+                    "C": "Twig",
+                    "D": "Ninguna es correcta"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "PHPUnit\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "Para eliminar una cookie:\r",
+                "opciones": {
+                    "A": "Se utiliza la función de deletecookie()",
+                    "B": "Se utiliza la función de erasecookie()",
+                    "C": "Se utiliza la función de setcookie()",
+                    "D": "Ninguna es correcta"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Se utiliza la función de setcookie()\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "Para transformar un documento XML en un documento HTML se utiliza:\r",
+                "opciones": {
+                    "A": "Un archivo JSON",
+                    "B": "Un archivo XSD",
+                    "C": "Un archivo XSLT",
+                    "D": "Un archivo"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Un archivo XSLT\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Para validar un fichero XML se utiliza:\r",
+                "opciones": {
+                    "A": "Un esquema XSD",
+                    "B": "Un transformador XSLT",
+                    "C": "Un formulario HTML",
+                    "D": "Ninguna es correcta."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Un esquema XSD\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Si se desea añadir contenido al final del fichero, se utilizará el modo:\r",
+                "opciones": {
+                    "A": "a",
+                    "B": "a+",
+                    "C": "w+",
+                    "D": "A y B son correctas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "A y B son correctas\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Si se desea abrir un fichero para lectura y escritura, se utilizará el modo:\r",
+                "opciones": {
+                    "A": "r+",
+                    "B": "w",
+                    "C": "w+",
+                    "D": "a"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "w+\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Una transacción, en informática, corresponde a:\r",
+                "opciones": {
+                    "A": "Conjunto de operaciones que, o se realizan todas, o no se realiza ninguna",
+                    "B": "Operación que solo puede realizar un órgano gubernamental",
+                    "C": "Solicitud de inicio de sesión",
+                    "D": "Consulta a una base de datos relacional"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Conjunto de operaciones que, o se realizan todas, o no se realiza ninguna\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 4: EJEMPLO DE APLICACIÓN COMPLETA EN PHP AUTOEVALUACIÓN\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "El siguiente código:\r",
+                "opciones": {
+                    "A": "Verifica si el usuario tiene una sesión iniciada.",
+                    "B": "Envía al usuario a la ventana de login pasando por GET el parámetro redirigido si no hay sesión iniciada.",
+                    "C": "Comprueba qué tienda es la que ha iniciado sesión.",
+                    "D": "Todas las respuestas son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las respuestas son correctas.\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "La siguiente ventana:\r",
+                "opciones": {
+                    "A": "Aparece cuando el usuario introdujo mal sus credenciales.",
+                    "B": "Aparece la primera vez que el usuario accede a la web.",
+                    "C": "Incluye un formulario para enviar los parámetros email y contraseña por GET.",
+                    "D": "Todas las respuestas son correctas."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Aparece cuando el usuario introdujo mal sus credenciales.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "El carrito de la compra:\r",
+                "opciones": {
+                    "A": "Guarda la información en la variable $_POST.",
+                    "B": "Guarda la información en la variable $_GET.",
+                    "C": "Guarda la información en la variable $_SHOPPING_CART.",
+                    "D": "Todas las respuestas son incorrectas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las respuestas son incorrectas.\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "El diagrama de entidad\/relación:\r",
+                "opciones": {
+                    "A": "Genera código SQL para la creación de tablas automáticamente.",
+                    "B": "Se realiza en la fase de diseño.",
+                    "C": "Incluye todas las tablas de la base de datos.",
+                    "D": "Es el primer paso para desarrollar una base de datos."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Es el primer paso para desarrollar una base de datos.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "El diagrama de flujo de pantallas:\r",
+                "opciones": {
+                    "A": "Incluye el código html de cada sección, formularios, tablas, etc.",
+                    "B": "Representa las entidades que modelan los datos a guardar.",
+                    "C": "Representa las ventanas por las que se mueve el usuario y desde dónde se accede a cada una.",
+                    "D": "Ninguna de las otras respuestas es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Representa las ventanas por las que se mueve el usuario y desde dónde se accede a cada una.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "El diseño de la base de datos:\r",
+                "opciones": {
+                    "A": "Se realiza en la segunda fase del proyecto.",
+                    "B": "Incluye todas las entidades de la aplicación y las tablas de enlace.",
+                    "C": "Se puede realizar en dos fases diseño lógico y diseño físico o utilizando un entorno integrado de forma simultánea.",
+                    "D": "Todas las respuestas son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las respuestas son correctas.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "El orden correcto a la hora de abordar un proyecto web es:\r",
+                "opciones": {
+                    "A": "Implementación, análisis de requisitos y diseño",
+                    "B": "Análisis de requisitos, implementación y diseño",
+                    "C": "Análisis de requisitos, diseño e implementación",
+                    "D": "Es indiferente, porque hay que volver cíclicamente a todas."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Análisis de requisitos, diseño e implementación\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "El sistema:\r",
+                "opciones": {
+                    "A": "Envía un email de confirmación a la tienda que realizó el pedido.",
+                    "B": "Realiza un control de stock, de forma que no permite agregar productos al carrito si no hay stock.",
+                    "C": "Implementa un sistema de registro de usuarios (tiendas) nuevos.",
+                    "D": "Todas las respuestas son incorrectas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las respuestas son incorrectas.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "En el proceso de inserción de pedidos:\r",
+                "opciones": {
+                    "A": "Se incluye una transacción para ejecutar 3 tipos de consultas.",
+                    "B": "No es necesario especificar los ids de las tablas pedidos y pedidos_productos porque son autoincrementales.",
+                    "C": "El sistema actualiza el sock de los productos, aunque tenga stock negativo.",
+                    "D": "Todas las respuestas son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las respuestas son correctas.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "La tabla pedidos:\r",
+                "opciones": {
+                    "A": "Incluye información sobre productos que se han pedido.",
+                    "B": "Incluye la fecha de realización del pedido.",
+                    "C": "Incluye la categoría del pedido.",
+                    "D": "Es una entidad de unión."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Incluye la fecha de realización del pedido.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 5: APLICACIONES WEB DINAMICAS CON AJAX \r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "¿Cuál es la diferencia entre una petición síncrona y asíncrona?\r",
+                "opciones": {
+                    "A": "Que la síncrona bloquea la ejecución del script hasta que recibe la respuesta",
+                    "B": "Que la asíncrona bloquea la ejecución del script hasta que se recibe la respuesta",
+                    "C": "Que la síncrona produce un error si no recibe respuesta",
+                    "D": "Que la asíncrona produce un error si no recibe respuesta"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Que la síncrona bloquea la ejecución del script hasta que recibe la respuesta\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "¿Cuándo se produce un evento?\r",
+                "opciones": {
+                    "A": "Se produce cada vez que se registra un evento onclick",
+                    "B": "Se produce cuando se reciben nuevos datos",
+                    "C": "Se produce cuando se envían nuevos datos",
+                    "D": "Se produce cada vez que el usuario interactúa con la página"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Se produce cada vez que el usuario interactúa con la página\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "¿Qué es DOM?\r",
+                "opciones": {
+                    "A": "Un lenguaje de programación en el lado del cliente",
+                    "B": "Un lenguaje de programación en el lado del servidor",
+                    "C": "Un lenguaje de programación en el lado del navegador",
+                    "D": "Una interfaz para manipular documentos desde el lenguaje de programación"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Una interfaz para manipular documentos desde el lenguaje de programación\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "¿Qué implementaciones desde el navegador son posibles gracias a AJAX?\r",
+                "opciones": {
+                    "A": "Formulario de datos",
+                    "B": "Chat de grupo",
+                    "C": "Notificaciones de las tendencias de Twitter",
+                    "D": "Todas son correctas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas son correctas\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "¿Qué ocurre cuando una función JavaScript se le asocia un vínculo?\r",
+                "opciones": {
+                    "A": "La función devuelve false para que el navegador no cargue el vínculo y envíe los datos al servidor",
+                    "B": "La función devuelve true para que el navegador no cargue el vínculo y envíe los datos al servidor",
+                    "C": "La función devuelve true para que el navegador cargue el vínculo y envíe los datos al servidor",
+                    "D": "La función devuelve false para que el navegador cargue el vínculo y envíe los datos al servidor"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "La función devuelve false para que el navegador no cargue el vínculo y envíe los datos al servidor\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "AJAX realiza las peticiones al servidor. ¿Mediante qué lenguaje de programación lo realiza?\r",
+                "opciones": {
+                    "A": "XML",
+                    "B": "JavaScript",
+                    "C": "HTML",
+                    "D": "JSON"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "JavaScript\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "AJAX realiza las peticiones al servidor. Los datos que se entregan por parte del servidor pueden ser de tipo:\r",
+                "opciones": {
+                    "A": "Semiestructurado",
+                    "B": "No estructurado",
+                    "C": "Sin formato",
+                    "D": "Cualquier formato"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Cualquier formato\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Cuando se procesa una petición asíncrona, por norma general:\r",
+                "opciones": {
+                    "A": "Se comprueba el código de respuesta del servidor",
+                    "B": "Se comprueba el estado de respuesta del servidor",
+                    "C": "Se comprueban los datos enviados al servidor",
+                    "D": "Todas las anteriores son correctas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "La ejecución de código JavaScript se ejecuta en la parte:\r",
+                "opciones": {
+                    "A": "Cliente",
+                    "B": "Servidor",
+                    "C": "Únicamente de formulario de datos",
+                    "D": "Todas las anteriores son correctas"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Cliente\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Las peticiones AJAX, ¿Qué objeto utilizan?\r",
+                "opciones": {
+                    "A": "DOM",
+                    "B": "XMLHTTPREQUEST",
+                    "C": "HTTPREQUEST",
+                    "D": "Las peticiones AJAX no utilizan objetos"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "XMLHTTPREQUEST\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 6: APLICACIÓN DE PEDIDOS CON AJAX \r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "¿Cuál es la diferencia del lado del servidor? \r",
+                "opciones": {
+                    "A": "Ahora los ficheros HTML devuelven los datos en formato JSON",
+                    "B": "Todas las respuestas pasan directamente al servidor",
+                    "C": "La forma síncrona produce un error si no recibe respuesta",
+                    "D": "Que las funciones están optimizadas"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Ahora los ficheros HTML devuelven los datos en formato JSON \r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "¿Cuándo se produce un evento? \r",
+                "opciones": {
+                    "A": "Se produce cada vez que se registra un evento onclick",
+                    "B": "Se produce cuando se reciben nuevos datos",
+                    "C": "Se produce cuando se envían nuevos datos",
+                    "D": "Se produce cada vez que el usuario interactúa con la página"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Se produce cada vez que el usuario interactúa con la página \r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "¿Qué es un evento onclick? \r",
+                "opciones": {
+                    "A": "Atributo HTML que ejecuta una función JavaScript sobre un elemento cuando se produce un evento onclick",
+                    "B": "Atributo DOM que ejecuta una función JavaScript sobre un elemento cuando se produce un evento onclick",
+                    "C": "Atributo HTML que ejecuta una función JavaScript sobre un elemento cuando se produce un evento onsubmit",
+                    "D": "Ninguna respuesta es correcta"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Atributo HTML que ejecuta una función JavaScript sobre un elemento cuando se produce un evento onclick \r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "¿Qué es un evento onsubmit? \r",
+                "opciones": {
+                    "A": "Atributo HTML que ejecuta una función JavaScript sobre un elemento cuando se produce un evento submit",
+                    "B": "Atributo JSON que ejecuta una función JavaScript sobre un elemento cuando se produce un evento onsubmit",
+                    "C": "Atributo JSON que ejecuta una función JavaScript sobre un elemento cuando se produce un evento onclick",
+                    "D": "Ninguna respuesta es correcta"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Atributo HTML que ejecuta una función JavaScript sobre un elemento cuando se produce un evento submit \r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "¿Qué es un Evento? \r",
+                "opciones": {
+                    "A": "La representación de acciones que realiza el usuario cómo un envío de formulario",
+                    "B": "La representación de acciones que realiza el servidor cómo un envío de formulario",
+                    "C": "Acción realizada por un usuario al validarse en el login",
+                    "D": "Acción que se produce únicamente cuando se hace click en el botón de la interfaz"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "La representación de acciones que realiza el usuario cómo un envío de formulario   \r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "¿Qué realiza la función iterator_to_array()? \r",
+                "opciones": {
+                    "A": "Función PHP que convierte un array en cualquier objeto",
+                    "B": "Función PHP que convierte un array en un documento JSON",
+                    "C": "Función PHP que convierte un documento JSON a un objeto",
+                    "D": "Función PHP que convierte un objeto a un array"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Función PHP que convierte un objeto a un array \r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "¿Qué realiza la función json_encode()? \r",
+                "opciones": {
+                    "A": "Función PHP que convierte un array en cualquier objeto",
+                    "B": "Función PHP que convierte un array en un documento JSON",
+                    "C": "Función PHP que convierte un documento JSON a un objeto",
+                    "D": "Función PHP que convierte un objeto a un array"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Función PHP que convierte un array en un documento JSON \r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "¿Qué realiza la función json_decode()? \r",
+                "opciones": {
+                    "A": "Función PHP que convierte un array en cualquier objeto",
+                    "B": "Función PHP que convierte un array en un documento JSON",
+                    "C": "Función PHP que convierte un documento JSON a un objeto",
+                    "D": "Función PHP que convierte un objeto a un array"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Función PHP que convierte un documento JSON a un objeto \r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Al utilizar AJAX se realizan pequeñas automatizaciones. Cuando se realiza un login, por ejemplo, ¿Qué se automatiza?  \r",
+                "opciones": {
+                    "A": "El código JavaScript",
+                    "B": "El código AJAX",
+                    "C": "El formulario se oculta y se accede",
+                    "D": "Todas las anteriores son correctas"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "El formulario se oculta y se accede \r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Dentro de la aplicación, todas las peticiones que se realizan al servidor se realizan mediante:  \r",
+                "opciones": {
+                    "A": "JavaScript",
+                    "B": "Cliente y Servidor",
+                    "C": "HTML",
+                    "D": "Todas las anteriores son correctas"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "JavaScript \r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 7: MAPEO OBJETO-RELACIONAL \r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "¿A qué van asociadas las tablas de las bases de datos?\r",
+                "opciones": {
+                    "A": "A una entidad",
+                    "B": "A una consulta",
+                    "C": "A un repositorio",
+                    "D": "A un atributo"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "A una entidad\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "¿En qué consiste el Mapeo objeto-relacional?\r",
+                "opciones": {
+                    "A": "En establecer relación mediante asociaciones",
+                    "B": "En establecer relación mediante clases",
+                    "C": "Consiste en asociar clases sin simplificar acciones",
+                    "D": "Consiste en asociar clases que se manejan en la aplicación y base de datos para simplificar acciones"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Consiste en asociar clases que se manejan en la aplicación y base de datos para simplificar acciones\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "¿Qué es Doctrine?\r",
+                "opciones": {
+                    "A": "Es la configuración de la base de datos",
+                    "B": "Es un ORM extendido para PHP",
+                    "C": "Es un objeto de la clase EntityManager",
+                    "D": "Es una entidad"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Es un ORM extendido para PHP\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "¿Qué es DQL?\r",
+                "opciones": {
+                    "A": "Lenguaje propio parecido a SQL",
+                    "B": "Lenguaje SQL con una implementación",
+                    "C": "Es una función del lenguaje SQL",
+                    "D": "DOM Query Language"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Lenguaje propio parecido a SQL\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "¿Qué es una anotación?\r",
+                "opciones": {
+                    "A": "Metadatos que se añaden como comentarios al código fuente",
+                    "B": "Entidades con claves ajenas",
+                    "C": "Entidades en el modelo relacional",
+                    "D": "Ninguna respuesta es correcta"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Metadatos que se añaden como comentarios al código fuente\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "¿Qué son las entidades?\r",
+                "opciones": {
+                    "A": "Son las clases asociadas a la base de datos",
+                    "B": "Son atributos persistentes",
+                    "C": "Son las clases no asociadas a la base de datos",
+                    "D": "Son atributos persistentes sin estar asociado a Doctrine"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Son las clases asociadas a la base de datos\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Dentro del patrón MVC, ¿De qué parte se encargan los ORM?\r",
+                "opciones": {
+                    "A": "Se encargan del modelo",
+                    "B": "Se encarga de la vista",
+                    "C": "Se encarga del controlador",
+                    "D": "Ninguna respuesta es correcta"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Se encargan del modelo\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "El objetivo de las ORM es:\r",
+                "opciones": {
+                    "A": "Simplificar el código en general",
+                    "B": "Simplificar el código PHP",
+                    "C": "Evitar tareas repetitivas",
+                    "D": "Unificar las bases de datos"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Evitar tareas repetitivas\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Indica una ventaja de la abstracción\r",
+                "opciones": {
+                    "A": "Permite integrar diferentes orígenes de datos",
+                    "B": "Permite la reusabilidad del código",
+                    "C": "Facilita la tarea de migración a otra aplicación",
+                    "D": "Todas las anteriores son correctas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Mediante ORM asociamos los elementos de la base de datos con los objetos de:\r",
+                "opciones": {
+                    "A": "Aplicación",
+                    "B": "Entity-Manager",
+                    "C": "PHP",
+                    "D": "getRepository()"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Aplicación\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 8: DESARROLLO DE APLICACIONES WEB EN SYMFONY \r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "¿Dónde se definen las rutas de una aplicación?\r",
+                "opciones": {
+                    "A": "En el fichero .env",
+                    "B": "En el directorio de controladores",
+                    "C": "En las anotaciones",
+                    "D": "En las plantillas"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "En las anotaciones\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "¿En qué directorio se guardan las entidades?\r",
+                "opciones": {
+                    "A": "\/src\/Entity",
+                    "B": "\/src\/Controller",
+                    "C": "Mientras se especifique en .env, cualquiera es válido",
+                    "D": "Todas son incorrectas"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "\/src\/Entity\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "¿En qué fichero se modifican los servicios de bases de datos y de correo electrónico?\r",
+                "opciones": {
+                    "A": ".evn",
+                    "B": ".ven",
+                    "C": ".env",
+                    "D": "Todas son incorrectas."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": ".env\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "¿Qué es una plantilla en Symfony?\r",
+                "opciones": {
+                    "A": "Un patrón de diseño de aplicaciones",
+                    "B": "Un framework usado para desarrollo web",
+                    "C": "Un fichero usado para la salida de código PHP",
+                    "D": "Un modo de asociación de URL con controladores"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Un fichero usado para la salida de código PHP\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "¿Qué estructura tienen los proyectos creados en Symfony?\r",
+                "opciones": {
+                    "A": "Una estructura de directorios marcada",
+                    "B": "Una estructura de directorios débil",
+                    "C": "No tienen ninguna estructura definida",
+                    "D": "Una estructura jerárquica"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Una estructura de directorios marcada\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "¿Qué función debemos usar para incluir una ruta en una plantilla?\r",
+                "opciones": {
+                    "A": "path()",
+                    "B": "url()",
+                    "C": "A y B son correctas",
+                    "D": "Todas las anteriores son incorrectas."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "A y B son correctas\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "¿Qué ORM puede usar Symfony?\r",
+                "opciones": {
+                    "A": "Doctrine",
+                    "B": "Varias",
+                    "C": "A y B son correctas",
+                    "D": "Todas son incorrectas"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "A y B son correctas\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "¿Qué son los controladores?\r",
+                "opciones": {
+                    "A": "Métodos usados para validar la información que introduce el usuario",
+                    "B": "Métodos que se asocian a una ruta",
+                    "C": "Objetos que permiten controlar los accesos",
+                    "D": "Todas son correctas"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Métodos que se asocian a una ruta\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Con la configuración de rutas, se consigue...\r",
+                "opciones": {
+                    "A": "Asociar las URL solicitadas por el cliente con su correspondiente controlador",
+                    "B": "Asociar las URL solicitadas por el servidor con su correspondiente controlador",
+                    "C": "Asociar las URL solicitadas por el cliente con cualquier controlador",
+                    "D": "Asociar las URL introducidas por el cliente con cualquier controlador"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Asociar las URL solicitadas por el cliente con su correspondiente controlador\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Si queremos redireccionar, ¿qué método usamos?\r",
+                "opciones": {
+                    "A": "redirectToRoute()",
+                    "B": "header(\"Location:\")",
+                    "C": "toURL()",
+                    "D": "Para redireccionar no se usan métodos"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "redirectToRoute()\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 9: APLICACIÓN DE PEDIDOS EN SYMFONY \r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "¿Cómo se realiza el control de acceso? \r",
+                "opciones": {
+                    "A": "Configurando el fichero security.yaml",
+                    "B": "Configurando el fichero config.yaml",
+                    "C": "Configurando el fichero .env",
+                    "D": "No se puede realizar ningún control de acceso"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Configurando el fichero security.yaml \r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "¿De qué forma podemos manejar la base de datos? \r",
+                "opciones": {
+                    "A": "Mediante Doctrine",
+                    "B": "Mediante funciones de la aplicación original",
+                    "C": "Mediante funciones de la aplicación original con algunas modificaciones",
+                    "D": "Todas son correctas"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Mediante Doctrine \r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "¿De qué forma se asocia el producto y la categoría? \r",
+                "opciones": {
+                    "A": "No existe relación",
+                    "B": "De forma direccional",
+                    "C": "De forma bidireccional",
+                    "D": "Todas las formas son posibles"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "De forma bidireccional \r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "¿De qué manera se utiliza el servicio para el envío de correo? \r",
+                "opciones": {
+                    "A": "Se realiza mediante las funciones de la aplicación original",
+                    "B": "Se utiliza el componente de Symfony",
+                    "C": "Se realiza mediante una aplicación de terceros",
+                    "D": "Hay que configurarlo previamente"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Se utiliza el componente de Symfony \r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "¿De qué tipo son los formularios de añadir y eliminar productos? \r",
+                "opciones": {
+                    "A": "Normales con envío en JavaScript",
+                    "B": "Utilizan el componente de Symfony",
+                    "C": "Son formularios HTML normales",
+                    "D": "A y B son correctas"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Son formularios HTML normales \r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "¿En qué fichero se introduce la configuración de la base de datos? \r",
+                "opciones": {
+                    "A": "Security.yaml",
+                    "B": "Fichero login.php",
+                    "C": "A y B son correctas",
+                    "D": "Fichero .env"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Fichero .env \r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Dentro de las entidades, ¿Cuál representa a los usuarios de la aplicación? \r",
+                "opciones": {
+                    "A": "Tienda",
+                    "B": "Pedido",
+                    "C": "Usuario",
+                    "D": "Todas las anteriores son correctas"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Tienda \r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "En la aplicación, ¿Qué roles se utilizan? \r",
+                "opciones": {
+                    "A": "ROLE_USER",
+                    "B": "ROLE_ADMIN",
+                    "C": "ROLE_USER y ROLE_ADMIN",
+                    "D": "No se utilizan roles"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "ROLE_USER \r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "La ruta eliminar, dentro de la aplicación, ¿Dónde redirige? \r",
+                "opciones": {
+                    "A": "categorías",
+                    "B": "cerrar sesión",
+                    "C": "carrito",
+                    "D": "Todas son correctas"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "carrito \r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Si queremos hacer una asociación entre producto y categoría, se puede hacer mediante: \r",
+                "opciones": {
+                    "A": "Forma Bidireccional",
+                    "B": "Forma direccional",
+                    "C": "Forma unilateral",
+                    "D": "Se puede utilizar de cualquier manera"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Forma Bidireccional \r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 10: SERVICIOS WEB Y APLICACIONES HIBRIDAS  \r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "¿Cuál es el principal problema que presenta trabajar con la extensión SOAP de PHP? \r",
+                "opciones": {
+                    "A": "Que no viene siempre implementada",
+                    "B": "Que cuesta mucho implementarla",
+                    "C": "Que su uso es muy complicado",
+                    "D": "Que su uso es muy básico"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Que su uso es muy básico \r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "¿Cuál sería uno de los ejemplos más extendidos de API? \r",
+                "opciones": {
+                    "A": "Google Maps",
+                    "B": "Google Drive",
+                    "C": "Apple Maps",
+                    "D": "Google Fotos"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Google Maps \r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "¿Dónde podemos usar la API de Google Maps? \r",
+                "opciones": {
+                    "A": "En el servidor",
+                    "B": "En el cliente",
+                    "C": "A y B son correctas",
+                    "D": "Todas son incorrectas"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "En el cliente \r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "¿De qué otro modo podemos llamar a una aplicación híbrida? \r",
+                "opciones": {
+                    "A": "API",
+                    "B": "SOAP",
+                    "C": "Mashup",
+                    "D": "No existe ningún otro modo de referirnos a una aplicación híbrida"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Mashup \r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "¿Para qué sirven los canales RSS? \r",
+                "opciones": {
+                    "A": "Para encontrar servicios web",
+                    "B": "Para compartir distintos tipos de contenido",
+                    "C": "Para publicar distintos servicios web",
+                    "D": "Todas son correctas"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Para compartir distintos tipos de contenido \r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "¿Qué usan numerosos organismos públicos para publicar información? \r",
+                "opciones": {
+                    "A": "ATOM",
+                    "B": "APIs",
+                    "C": "RSS",
+                    "D": "Ninguna es correcta"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "RSS \r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Indica cual de los siguientes no es un estándar del W3C: \r",
+                "opciones": {
+                    "A": "SOAP",
+                    "B": "WSDL",
+                    "C": "SOA",
+                    "D": "Todos son estándares del W3C"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "SOA \r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Indica cual de los siguientes no es un formato para fuentes o canales web: \r",
+                "opciones": {
+                    "A": "ATOM",
+                    "B": "UDDI",
+                    "C": "RSS",
+                    "D": "Todos son formatos para canales web"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "UDDI \r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Indica que afirmación es correcta respecto a los servicios: \r",
+                "opciones": {
+                    "A": "Es un componente independiente",
+                    "B": "Se pueden usar desde diferentes aplicaciones",
+                    "C": "Se pueden usar desde diferentes sistemas",
+                    "D": "Todas son correctas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas son correctas \r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Si tenemos la clase Laminas\\Soap\\Server, ¿qué afirmación de las siguientes es verdadera? \r",
+                "opciones": {
+                    "A": "Esta clase predefine algunos endpoints susceptibles de ser sobrescritos",
+                    "B": "Esta clase se asocia con otra clase que tenga métodos como endpoints del servicio",
+                    "C": "Esta clase contiene unos métodos que son los endpoints del servicio",
+                    "D": "Todas las anteriores son incorrectas. "
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Esta clase se asocia con otra clase que tenga métodos como endpoints del servicio \r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD GLOBAL: PRUEBA DE REPASO\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "¿Cómo podemos conocer el tipo de petición de una URL?\r",
+                "opciones": {
+                    "A": "No se puede saber.",
+                    "B": "Mediante $_GET",
+                    "C": "Mediante $_POST",
+                    "D": "Mediante $_SERVER[\"REQUEST_METHOD\"]"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Mediante $_SERVER[\"REQUEST_METHOD\"]\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "¿Cómo podemos evitar que se acceda a un controlador con el control de acceso?\r",
+                "opciones": {
+                    "A": "Ocultando la URL para su acceso.",
+                    "B": "Usando en cada ruta la función isLogged()",
+                    "C": "Cambiando el controlador a otra carpeta de symfony",
+                    "D": "Añadir en el controlador la funcionalidad @Security(\"is_granted(ROL)\")"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Añadir en el controlador la funcionalidad @Security(\"is_granted(ROL)\")\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "¿Cómo se realiza el control de acceso en un proyecto con Symfony?\r",
+                "opciones": {
+                    "A": "Configurando el fichero security.yaml",
+                    "B": "Configurando el fichero config.yaml",
+                    "C": "Configurando el fichero .env",
+                    "D": "No se puede realizar ningún control de acceso"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Configurando el fichero security.yaml\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "¿Cuál es la diferencia entre una petición síncrona y asíncrona?\r",
+                "opciones": {
+                    "A": "Que la síncrona bloquea la ejecución del script hasta que recibe la respuesta",
+                    "B": "Que la asíncrona bloquea la ejecución del script hasta que se recibe la respuesta",
+                    "C": "Que la síncrona produce un error si no recibe respuesta",
+                    "D": "Que la asíncrona produce un error si no recibe respuesta"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Que la síncrona bloquea la ejecución del script hasta que recibe la respuesta\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "¿De qué otro modo podemos llamar a una aplicación híbrida?\r",
+                "opciones": {
+                    "A": "API",
+                    "B": "SOAP",
+                    "C": "Mashup",
+                    "D": "No existe ningún otro modo de referirnos a una aplicación híbrida"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Mashup\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "¿En qué directorio de la estructura del proyecto se guardan los controladores?\r",
+                "opciones": {
+                    "A": "\/src\/Entity",
+                    "B": "\/Controller",
+                    "C": "\/src\/Controller",
+                    "D": "Se pueden guardar en cualquier carpeta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "\/src\/Controller\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "¿En qué fichero se introduce la configuración de la base de datos?\r",
+                "opciones": {
+                    "A": "Security.yaml",
+                    "B": "Fichero login.php",
+                    "C": "A y B son correctas",
+                    "D": "Fichero .env"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Fichero .env\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "¿Para qué sirve la etiqueta @ORM\\Id?\r",
+                "opciones": {
+                    "A": "Define una entidad",
+                    "B": "Define un campo",
+                    "C": "Define una clave primaria",
+                    "D": "Ninguna respuesta es correcta"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Define una clave primaria\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "¿Qué diseño de página presenta la aplicación del carrito con AJAX?\r",
+                "opciones": {
+                    "A": "Hay una página HTML por cada apartado de la aplicación.",
+                    "B": "No hay estilos de formato CSS.",
+                    "C": "Se usan plantillas.",
+                    "D": "One page o diseño de una única página."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "One page o diseño de una única página.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "¿Qué es Symfony?\r",
+                "opciones": {
+                    "A": "Un framework para usar AJAX",
+                    "B": "Un framework para crear aplicaciones web usando el patrón MVC",
+                    "C": "Un framework para ORM",
+                    "D": "Un framework para usar base de datos."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Un framework para crear aplicaciones web usando el patrón MVC\r"
+            },
+            {
+                "numero": "11",
+                "pregunta": "¿Qué es TWIG?\r",
+                "opciones": {
+                    "A": "Un tipo especial de controlador.",
+                    "B": "Un sistema de plantillas HTML.",
+                    "C": "Un framework para enviar correos electrónicos",
+                    "D": "Ninguna de las anteriores"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Un sistema de plantillas HTML.\r"
+            },
+            {
+                "numero": "12",
+                "pregunta": "¿Qué es un WSDL?\r",
+                "opciones": {
+                    "A": "Un descriptor de un servicio web",
+                    "B": "Es una extensión de un fichero html",
+                    "C": "Un protocolo de comunicación",
+                    "D": "Es un contenedor de servicios"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Un descriptor de un servicio web\r"
+            },
+            {
+                "numero": "13",
+                "pregunta": "¿Qué hace la variable predefinida $_GET?\r",
+                "opciones": {
+                    "A": "Obtiene parámetros enviados en una petición GET",
+                    "B": "Obtiene parámetros enviados en una petición POST.",
+                    "C": "Obtiene información de la petición.",
+                    "D": "Obtiene información del servidor."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Obtiene parámetros enviados en una petición GET\r"
+            },
+            {
+                "numero": "14",
+                "pregunta": "¿Qué ORM es el más extendido en PHP?\r",
+                "opciones": {
+                    "A": "Hibernate",
+                    "B": "ORMa",
+                    "C": "Doctrine",
+                    "D": "Symfony"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Doctrine\r"
+            },
+            {
+                "numero": "15",
+                "pregunta": "¿Qué realiza la función json_encode()?\r",
+                "opciones": {
+                    "A": "Función PHP que convierte un array en cualquier objeto",
+                    "B": "Función PHP que convierte un array en un documento JSON",
+                    "C": "Función PHP que convierte un documento JSON a un objeto",
+                    "D": "Función PHP que convierte un objeto a un array"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Función PHP que convierte un array en un documento JSON\r"
+            },
+            {
+                "numero": "16",
+                "pregunta": "¿Qué sistema de control de acceso utiliza la aplicación de la tienda?\r",
+                "opciones": {
+                    "A": "No hay ningún sistema de control de acceso.",
+                    "B": "Con un formulario que solicita el usuario y la contraseña.",
+                    "C": "Mediante un fichero de propiedades.",
+                    "D": "La aplicación solo es accesible por un rango de ips."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Con un formulario que solicita el usuario y la contraseña.\r"
+            },
+            {
+                "numero": "17",
+                "pregunta": "¿Qué son las entidades?\r",
+                "opciones": {
+                    "A": "Son las clases asociadas a la base de datos",
+                    "B": "Son atributos persistentes",
+                    "C": "Son las clases no asociadas a la base de datos",
+                    "D": "Son atributos persistentes sin estar asociado a Doctrine"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Son las clases asociadas a la base de datos\r"
+            },
+            {
+                "numero": "18",
+                "pregunta": "¿Qué son los controladores?\r",
+                "opciones": {
+                    "A": "Métodos usados para validar la información que introduce el usuario",
+                    "B": "Métodos que se asocian a una ruta",
+                    "C": "Objetos que permiten controlar los accesos",
+                    "D": "Todas son correctas"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Métodos que se asocian a una ruta\r"
+            },
+            {
+                "numero": "19",
+                "pregunta": "AJAX realiza las peticiones al servidor. ¿Mediante qué lenguaje de programación lo realiza?\r",
+                "opciones": {
+                    "A": "XML",
+                    "B": "JavaScript",
+                    "C": "HTML",
+                    "D": "JSON"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "JavaScript\r"
+            },
+            {
+                "numero": "20",
+                "pregunta": "Al aplicar AJAX. ¿Qué parte soporta más carga de desarrollo?\r",
+                "opciones": {
+                    "A": "El servidor y el cliente por partes iguales.",
+                    "B": "El servidor.",
+                    "C": "El cliente.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "El cliente.\r"
+            },
+            {
+                "numero": "21",
+                "pregunta": "Al utilizar AJAX se realizan pequeñas automatizaciones. Cuando se realiza un login, por ejemplo, ¿Qué se automatiza?\r",
+                "opciones": {
+                    "A": "El código JavaScript",
+                    "B": "El código AJAX",
+                    "C": "El formulario se oculta y se accede",
+                    "D": "Todas las anteriores son correctas"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "El formulario se oculta y se accede\r"
+            },
+            {
+                "numero": "22",
+                "pregunta": "Dentro del patrón MVC, ¿De qué parte se encargan los ORM?\r",
+                "opciones": {
+                    "A": "Se encargan del modelo",
+                    "B": "Se encarga de la vista",
+                    "C": "Se encarga del controlador",
+                    "D": "Ninguna respuesta es correcta"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Se encargan del modelo\r"
+            },
+            {
+                "numero": "23",
+                "pregunta": "El carrito de la compra:\r",
+                "opciones": {
+                    "A": "Guarda la información en la variable $_POST.",
+                    "B": "Guarda la información en la variable $_GET.",
+                    "C": "Guarda la información en la variable $_SHOPPING_CART.",
+                    "D": "Todas las respuestas son incorrectas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las respuestas son incorrectas.\r"
+            },
+            {
+                "numero": "24",
+                "pregunta": "El operador \"===!\" Hace referencia a:\r",
+                "opciones": {
+                    "A": "Elementos idénticos.",
+                    "B": "Elementos no idénticos.",
+                    "C": "Elementos iguales y relacionados.",
+                    "D": "Ninguna de las anteriores, no existe ese operador."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores, no existe ese operador.\r"
+            },
+            {
+                "numero": "25",
+                "pregunta": "El orden correcto a la hora de abordar un proyecto web es: \r",
+                "opciones": {
+                    "A": "Implementación, análisis de requisitos y diseño",
+                    "B": "Análisis de requisitos, implementación y diseño",
+                    "C": "Análisis de requisitos, diseño e implementación",
+                    "D": "Es indiferente, porque hay que volver cíclicamente a todas."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Análisis de requisitos, diseño e implementación\r"
+            },
+            {
+                "numero": "26",
+                "pregunta": "En un servidor web en un modelo cliente-servidor suele tener como intermediario:\r",
+                "opciones": {
+                    "A": "Un navegador.",
+                    "B": "Un buscador.",
+                    "C": "No posee intermediarios.",
+                    "D": "Posee intermediarios, pero ninguno de los anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Un navegador.\r"
+            },
+            {
+                "numero": "27",
+                "pregunta": "En una página OnePage ¿Como se generan los documentos HTML?\r",
+                "opciones": {
+                    "A": "Los genera el servidor directamente.",
+                    "B": "Existen plantillas predefinidas.",
+                    "C": "Los genera el cliente mediante el uso del DOM.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Los genera el cliente mediante el uso del DOM.\r"
+            },
+            {
+                "numero": "28",
+                "pregunta": "Indica que afirmación es correcta respecto a los servicios:\r",
+                "opciones": {
+                    "A": "Es un componente independiente",
+                    "B": "Se pueden usar desde diferentes aplicaciones",
+                    "C": "Se pueden usar desde diferentes sistemas",
+                    "D": "Todas son correctas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas son correctas\r"
+            },
+            {
+                "numero": "29",
+                "pregunta": "La capa de negocio se utiliza para:\r",
+                "opciones": {
+                    "A": "La lógica propia de la aplicación.",
+                    "B": "Mostrar la información y la interacción con el usuario.",
+                    "C": "La gestión de los datos con la base de datos.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "La lógica propia de la aplicación.\r"
+            },
+            {
+                "numero": "30",
+                "pregunta": "La capa de presentación se utiliza para:\r",
+                "opciones": {
+                    "A": "La lógica propia de la aplicación.",
+                    "B": "Mostrar la información y la interacción con el usuario.",
+                    "C": "La gestión de los datos con la base de datos.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Mostrar la información y la interacción con el usuario.\r"
+            },
+            {
+                "numero": "31",
+                "pregunta": "La generación dinámica de una página web se basa, principalmente en el empleo de:\r",
+                "opciones": {
+                    "A": "HTML.",
+                    "B": "XML.",
+                    "C": "PHP.",
+                    "D": "HTTP."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "PHP.\r"
+            },
+            {
+                "numero": "32",
+                "pregunta": "La información que hay en el carrito de la compra:\r",
+                "opciones": {
+                    "A": "Esta en la base de datos.",
+                    "B": "Esta en la sesión, aún no está en la base de datos.",
+                    "C": "Una parte de la información esta en la sesión y la otra en la base de datos.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Esta en la sesión, aún no está en la base de datos.\r"
+            },
+            {
+                "numero": "33",
+                "pregunta": "Las variables en php empiezan por:\r",
+                "opciones": {
+                    "A": "El símbolo $.",
+                    "B": "El símbolo #.",
+                    "C": "Por cualquier dígito.",
+                    "D": "Por cualquier carácter."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "El símbolo $.\r"
+            },
+            {
+                "numero": "34",
+                "pregunta": "Mediante el uso de AJAX, ¿Qué conseguimos?\r",
+                "opciones": {
+                    "A": "Hacer una sola petición de toda la página web completa.",
+                    "B": "Hacer diferentes peticiones por cada parte de una página web.",
+                    "C": "Modificar los estilos de la página web.",
+                    "D": "Combinar Javascript y php en un solo lenguaje."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Hacer diferentes peticiones por cada parte de una página web.\r"
+            },
+            {
+                "numero": "35",
+                "pregunta": "Para abrir un bloque en PHP se emplea la etiqueta:\r",
+                "opciones": {
+                    "A": "<¿?php",
+                    "B": "<¿php",
+                    "C": "<¡!php",
+                    "D": "<?php"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "<?php\r"
+            },
+            {
+                "numero": "36",
+                "pregunta": "Para automatizar las pruebas de código en PHP se utiliza la librería:\r",
+                "opciones": {
+                    "A": "PDO",
+                    "B": "PHPUnit",
+                    "C": "Twig",
+                    "D": "Ninguna es correcta"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "PHPUnit\r"
+            },
+            {
+                "numero": "37",
+                "pregunta": "Para conectarnos a una base de datos ¿Qué clase necesitaremos?\r",
+                "opciones": {
+                    "A": "PDO",
+                    "B": "MySQL",
+                    "C": "BBDD",
+                    "D": "DATABASE"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "PDO\r"
+            },
+            {
+                "numero": "38",
+                "pregunta": "Para eliminar una cookie: \r",
+                "opciones": {
+                    "A": "Se utiliza la función de deletecookie()",
+                    "B": "Se utiliza la función de erasecookie()",
+                    "C": "Se utiliza la función de setcookie()",
+                    "D": "Ninguna es correcta"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Se utiliza la función de setcookie()\r"
+            },
+            {
+                "numero": "39",
+                "pregunta": "Para probar un servicio. ¿Qué necesitamos?\r",
+                "opciones": {
+                    "A": "Conexión a internet",
+                    "B": "La URL que genera el descriptor del servicio",
+                    "C": "Un software especial",
+                    "D": "La clase que tiene la lógica del servicio."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "La URL que genera el descriptor del servicio\r"
+            },
+            {
+                "numero": "40",
+                "pregunta": "Si queremos redireccionar a una ruta en Symfony, ¿Qué método usamos?\r",
+                "opciones": {
+                    "A": "redirectToRoute()",
+                    "B": "header(\"Location:\")",
+                    "C": "toURL()",
+                    "D": "Para redireccionar no se usan métodos"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "redirectToRoute()\r"
+            }
+        ]
+    }
+]

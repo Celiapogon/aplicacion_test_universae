@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test y examenes Universae </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Original+Surfer&family=Playpen+Sans:wght@100..800" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1 id="portada">Test y examenes Universae</h1>
+        </header>
+        <div id="selector-asignatura">
+            <h2 class="titulos">Selecciona una asignatura</h2>
+            <div id="lista-asignaturas"></div>
+        </div>
+        
+        <div id="selector-unidad" style="display: none;">
+            <h2 id="descripcion-asignatura"></h2>
+            <h4 class="titulos">Selecciona una unidad</h4>
+            <div id="lista-unidades"></div>
+            <button id="btn-volver-asignaturas" class="boton" onclick="cargarAsignaturas()">Volver a selección de asignaturas</button>
+        </div>
+        
+        <div id="test-container" style="display: none;">
+            <div id="contenido-test">
+                <h2 id="titulo-unidad" class="titulos"></h2>
+                
+                <div id="pregunta-container">
+                    <h3 id="numero-pregunta"></h3>
+                    <p id="texto-pregunta"></p>
+                    
+                    <div id="opciones-container">
+                        <!-- Las opciones se generarán dinámicamente -->
+                    </div>
+                    
+                    <div id="resultado" style="display: none;">
+                        <p id="mensaje-resultado"></p>
+                        <p id="explicacion-resultado"></p>
+                    </div>
+                </div>
+                
+                <div id="navegacion">
+                    <button id="btn-anterior" class="boton" disabled>Anterior</button>
+                    <span id="contador-preguntas"></span>
+                    <button id="btn-siguiente" class="boton">Siguiente</button>
+                </div>
+                
+                <div id="puntuacion">
+                    <p>Puntuación: </p>
+                        <p class="puntuacion-correctas"> Correctas:<span id="aciertos">0</span></p> 
+                        <p class="puntuacion-respondidas" > Respondidas:<span id="total-respondidas">0</span></p> 
+                        <p class="puntuacion-totales"> Totales:<span id="total-preguntas">0</span></p>
+                </div>
+            </div>
+            <div id="contenido-nota" style="display: none;">
+                <h2 class="titulos">Resultado Final</h2>
+                <h3 id="nota-final"></h3>
+                <p id="mensaje-final"></p>
+            </div>    
+                
+            
+            <button id="btn-volver" class="boton2">Volver a selección de unidades</button>
+        </div>
+    </div>
+    
+    <script src="test_interactivo.js"></script>
+</body>
+</html>
