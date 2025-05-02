@@ -1,0 +1,1374 @@
+[
+    {
+        "titulo": "UNIDAD 1: SELECCIÓN DE ARQUITECTURAS Y HERRAMIENTAS DE PROGRAMACIÓN \r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "Con JavaScript se pueden realizar diferentes funciones como:\r",
+                "opciones": {
+                    "A": "Modificar el contenido HTML de una web",
+                    "B": "Cambiar atributos de objetos HTML",
+                    "C": "Modificar el estilo de CSS",
+                    "D": "Todas son correctas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas son correctas\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "El comando innerHTML es:\r",
+                "opciones": {
+                    "A": "Permite leer un dato y asignarlo al contenido para modificar un elemento HTML",
+                    "B": "Genera código HTML de forma directa y añade etiquetas",
+                    "C": "Crea un cuadro emergente en el navegador con texto",
+                    "D": "Genera datos en la consola"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Permite leer un dato y asignarlo al contenido para modificar un elemento HTML\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "El desarrollo front-end se define como:\r",
+                "opciones": {
+                    "A": "La creación del diseño visual de la web que requiere del uso de diversos lenguajes de programación y el uso de frameworks",
+                    "B": "Desarrollo de la estructura, scripts y bases de datos, la parte no visible de la web",
+                    "C": "Incluye el diseño y la estructura de la web al completo",
+                    "D": "Requiere del uso de lenguajes de programación como PHP y bases de datos como MySQL"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "La creación del diseño visual de la web que requiere del uso de diversos lenguajes de programación y el uso de frameworks\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Es un ejemplo de entorno IDE (Integrated Development Environment):\r",
+                "opciones": {
+                    "A": "Visual Studio Code",
+                    "B": "Brackets",
+                    "C": "Atom",
+                    "D": "Todas son correctas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas son correctas\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "HTML o Hypertext markup language es:\r",
+                "opciones": {
+                    "A": "El estilo y diseño gráfico de la web",
+                    "B": "Un lenguaje de marcado que define el contenido de una página web",
+                    "C": "Un lenguaje de programación que añade dinamismo a la web",
+                    "D": "Un framework programado con TypeScript"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Un lenguaje de marcado que define el contenido de una página web\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "Indica cuáles son las partes fundamentales del desarrollo web:\r",
+                "opciones": {
+                    "A": "Front-end",
+                    "B": "Back-end",
+                    "C": "Full stack",
+                    "D": "Front-end y back-end"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Front-end y back-end\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "La adaptación de la interfaz visual de la página web a diferentes dispositivos (móviles, tablets y ordenadores) se conoce como:\r",
+                "opciones": {
+                    "A": "Back-end",
+                    "B": "Front-end",
+                    "C": "Responsive web design o diseño responsivo de la web",
+                    "D": "Design-end"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Responsive web design o diseño responsivo de la web\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Para programar en JavaScript se pueden aplicar frameworks de JavaScript como son:\r",
+                "opciones": {
+                    "A": "Angular",
+                    "B": "ReactJS",
+                    "C": "Vue.js",
+                    "D": "Todas son correctas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas son correctas\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Un comando para obtener un mensaje en la consola web desde JavaScript es:\r",
+                "opciones": {
+                    "A": "Console.log()",
+                    "B": "Document.write()",
+                    "C": "Windows.alert()",
+                    "D": "Alert()"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Console.log()\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Un lenguaje de programación que da dinamismo a la web y se combina con el código HTML es:\r",
+                "opciones": {
+                    "A": "CSS",
+                    "B": "HTML",
+                    "C": "JavaScript",
+                    "D": "Ninguno"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "JavaScript\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 2: SINTAXIS DEL LENGUAJE JAVASCRIPT\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "Las fechas usan el método:\r",
+                "opciones": {
+                    "A": "Date() o new Date()",
+                    "B": "Fecha()",
+                    "C": "Hours()",
+                    "D": "Ninguna"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Date() o new Date()\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "Las instrucciones de JavaScript terminan en:\r",
+                "opciones": {
+                    "A": "Comillas",
+                    "B": "Punto y coma",
+                    "C": "Sin nada",
+                    "D": "Coma"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Punto y coma\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "Los comentarios se pueden definir en JavaScript como:\r",
+                "opciones": {
+                    "A": "\/\/Comentario",
+                    "B": "\/*Comentario*\/",
+                    "C": "A y B son correctas",
+                    "D": "<!--Comentario-->"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "A y B son correctas\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Los datos en JavaScript se clasifican en:\r",
+                "opciones": {
+                    "A": "String, números, booleanos, arrays y objetos",
+                    "B": "Únicamente cadenas de texto",
+                    "C": "Valor null",
+                    "D": "No hay tipos"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "String, números, booleanos, arrays y objetos\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "Un bucle for que se define como:\r",
+                "opciones": {
+                    "A": "Ejecución de un bloque de código que se ejecuta un número concreto de veces",
+                    "B": "Ejecución de un bloque de código que se ejecuta mientras se cumple la condición",
+                    "C": "Ejecución de un bloque de código 2 veces",
+                    "D": "Ninguna es correcta"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Ejecución de un bloque de código que se ejecuta un número concreto de veces\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "Un bucle o loop se define como:\r",
+                "opciones": {
+                    "A": "Todo código cuya aplicación se repite un número finito o infinito de veces",
+                    "B": "Hay dos tipos de bucles: for y while",
+                    "C": "A y B son correctas",
+                    "D": "Una definición de una condición que ejecuta un código siempre que se cumpla"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "A y B son correctas\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Un condicional se puede definir con los parámetros:\r",
+                "opciones": {
+                    "A": "If",
+                    "B": "Else",
+                    "C": "Else if",
+                    "D": "Todas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Un conjunto de elementos organizados entre corchetes [ ] en JavaScript es:\r",
+                "opciones": {
+                    "A": "Array",
+                    "B": "Objeto",
+                    "C": "String",
+                    "D": "Número"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Array\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Un objeto en JavaScript es:\r",
+                "opciones": {
+                    "A": "Una forma de organización de elementos en JS",
+                    "B": "Un valor que no existe",
+                    "C": "Un código definido por el elemento function",
+                    "D": "Ninguna es correcta"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Una forma de organización de elementos en JS\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Una variable en JavaScript se puede definir con la\/s etiqueta\/s:\r",
+                "opciones": {
+                    "A": "Var",
+                    "B": "Let",
+                    "C": "Const",
+                    "D": "Todas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 3: UTILIZACIÓN DE OBJETOS PREDEFINIDOS DEL LENGUAJE\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "clearInterval() nos permite:\r",
+                "opciones": {
+                    "A": "Ejecutar setinterval().",
+                    "B": "Parar setinterval().",
+                    "C": "Reiniciar setinterval().",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Parar setinterval().\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "decodeURIComponent() permite:\r",
+                "opciones": {
+                    "A": "Codificar números en HTML.",
+                    "B": "Decodificar caracteres especiales en HTML.",
+                    "C": "Decodificar números en HTML.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Decodificar caracteres especiales en HTML.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "Existen una serie de funciones globales en JavaScript como:\r",
+                "opciones": {
+                    "A": "setl().",
+                    "B": "cedfer().",
+                    "C": "eval().",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "eval().\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Indica si el objeto es un array:\r",
+                "opciones": {
+                    "A": "isArray().",
+                    "B": "slice().",
+                    "C": "push().",
+                    "D": "shift()."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "isArray().\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "JavaScript es relativamente sencillo gracias a:\r",
+                "opciones": {
+                    "A": "Que no recarga el servidor y el objeto Date().",
+                    "B": "Que emplea hojas de estilo.",
+                    "C": "Al empleo de cookies.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Que no recarga el servidor y el objeto Date().\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "La fecha se muestra en formato:\r",
+                "opciones": {
+                    "A": "UTP.",
+                    "B": "UTC.",
+                    "C": "DD\/MM\/YYYY.",
+                    "D": "DD\/MM\/YY."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "DD\/MM\/YYYY.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "La recursividad se define como:\r",
+                "opciones": {
+                    "A": "Función que recurre continuamente a ella misma hasta obtener una solución.",
+                    "B": "Elementos que se definen e interactúan en la función.",
+                    "C": "Almacenamiento de información generada por la navegación en una página web cuyas funciones consisten en recordar el acceso a una página web y la evaluación de los hábitos de navegación.",
+                    "D": "Adquisición de la actividad en la web de forma diferente a las cookies."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Función que recurre continuamente a ella misma hasta obtener una solución.\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Las cookies se definen como:\r",
+                "opciones": {
+                    "A": "Función que recurre continuamente a ella misma hasta obtener una solución.",
+                    "B": "Elementos que se definen e interactúan en la función.",
+                    "C": "Almacenamiento de información generada por la navegación en una página web cuyas funciones consisten en recordar el acceso a una página web y la evaluación de los hábitos de navegación.",
+                    "D": "Adquisición de la actividad en la web de forma diferente a las cookies."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Almacenamiento de información generada por la navegación en una página web cuyas funciones consisten en recordar el acceso a una página web y la evaluación de los hábitos de navegación.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Las funciones principales de las cookies son:\r",
+                "opciones": {
+                    "A": "Acceso y hábitos de navegación.",
+                    "B": "Acceso y seguridad.",
+                    "C": "Recopilación de información y seguridad.",
+                    "D": "Acceso y seguridad."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Acceso y hábitos de navegación.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Pop() nos permite:\r",
+                "opciones": {
+                    "A": "Añade un elemento al final del array.",
+                    "B": "Elimina el primer elemento del array.",
+                    "C": "Ordena los elementos del array.",
+                    "D": "Ninguno de los anteriores."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguno de los anteriores.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 4: El DOM y el BOM \r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "Appendchild() nos permite:\r",
+                "opciones": {
+                    "A": "Crear nodo tipo Element.",
+                    "B": "Crear nodo tipo Text.",
+                    "C": "Asociar nodos Element y Text.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Asociar nodos Element y Text.\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "Atributos de las etiquetas asociados a un valor:\r",
+                "opciones": {
+                    "A": "Attr.",
+                    "B": "Atr.",
+                    "C": "Atri.",
+                    "D": "Attri."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Attr.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "DOM hace referencia a\r",
+                "opciones": {
+                    "A": "Development Of Model.",
+                    "B": "Development Object Model",
+                    "C": "Document Of Model.",
+                    "D": "Document Object Model"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Document Object Model\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Es un elemento del BOM:\r",
+                "opciones": {
+                    "A": "Dimensión de la ventana del navegador.",
+                    "B": "Propiedades de la página y la pantalla de usuario.",
+                    "C": "Gestión de cookies.",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "Hace referencia al objeto que se representa en el navegador:\r",
+                "opciones": {
+                    "A": "Bom.",
+                    "B": "Dom.",
+                    "C": "Nodo.",
+                    "D": "CDR."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Bom.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "Método para capturar eventos:\r",
+                "opciones": {
+                    "A": "Document.onclick.",
+                    "B": "Document.funcionclick.",
+                    "C": "Document.inclick.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Document.onclick.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Nodo de cada etiqueta. Pueden tener atributos y otros nodos:\r",
+                "opciones": {
+                    "A": "Element.",
+                    "B": "Browser.",
+                    "C": "Location.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Element.\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Objeto navigator permite:\r",
+                "opciones": {
+                    "A": "Permite manejar un navegador.",
+                    "B": "Permite obtener información sobre el navegador.",
+                    "C": "Eliminar las cookies del navegador.",
+                    "D": "Ninguno de los anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Permite obtener información sobre el navegador.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Para eliminar un nodo podemos emplear:\r",
+                "opciones": {
+                    "A": "Eliminatechild().",
+                    "B": "Ridchild()",
+                    "C": "removechild().",
+                    "D": "Ninguno de los anteriores."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "removechild().\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "resizeTo(x, y), permite:\r",
+                "opciones": {
+                    "A": "Redimensiona la ventana hasta que aumenta o disminuye su ancho y altura el número de valores definido por x e y. Se puede redimensionar para ampliar (valores positivos) o reducir (valores negativos) su tamaño.",
+                    "B": "redimensiona la ventana hasta que su ancho es igual a x y su alto igual a y. No hay valores negativos.",
+                    "C": "Mueve la ventana hasta la posición indicada.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "redimensiona la ventana hasta que su ancho es igual a x y su alto igual a y. No hay valores negativos.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 5: MECANISMOS DE COMUNICACIÓN ASÍNCRONA\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "AJAX es empleado por:\r",
+                "opciones": {
+                    "A": "JavaScript para la comunicación asíncrona con el servidor.",
+                    "B": "XML como hoja de estilo.",
+                    "C": "HTML para la comunicación entre servidores.",
+                    "D": "W3C para la creación de estándares CSS."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "JavaScript para la comunicación asíncrona con el servidor.\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "AJAX son las siglas de:\r",
+                "opciones": {
+                    "A": "Asynchronous Java and XSLT.",
+                    "B": "Asynchronous JavaScript and XSLT.",
+                    "C": "Asynchronous JavaScript and XML.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Asynchronous JavaScript and XML.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "AJAX suele acompañarse de:\r",
+                "opciones": {
+                    "A": "XPath.",
+                    "B": "JQuery.",
+                    "C": "Un archivo XMLH.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "JQuery.\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Característica común entre JSON y XML.\r",
+                "opciones": {
+                    "A": "Autodescriptivo.",
+                    "B": "Jerárquico.",
+                    "C": "XMLHttpRequest.",
+                    "D": "Todas de las anteriores son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas de las anteriores son correctas.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "En AJAX, DOM permite:\r",
+                "opciones": {
+                    "A": "La interacción y manipulación dinámica de la presentación.",
+                    "B": "Crear una presentación basada en estándares.",
+                    "C": "El intercambio y la manipulación de información.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "La interacción y manipulación dinámica de la presentación.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "En JQuery $(\"p\"); permite:\r",
+                "opciones": {
+                    "A": "Permite manejar contenido.",
+                    "B": "Permite obtener información de un contenido.",
+                    "C": "Seleccionar contenido.",
+                    "D": "Añadir contenido."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Seleccionar contenido.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Esta función de JQuery permite enviar y cargar datos desde una URL externa de forma asíncrona con AJAX.\r",
+                "opciones": {
+                    "A": "xampp().",
+                    "B": "send().",
+                    "C": "onready().",
+                    "D": "post()."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "post().\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "JSON es:\r",
+                "opciones": {
+                    "A": "Una alternativa a XML.",
+                    "B": "Un formato de texto para el intercambio de datos.",
+                    "C": "Un formato de texto de JavaScript.",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "JSON son las siglas de:\r",
+                "opciones": {
+                    "A": "Junction set object Note.",
+                    "B": "Jects object Notation.",
+                    "C": "Ejection seat object Note.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "XML son las siglas de:\r",
+                "opciones": {
+                    "A": "Extensible Markup Language",
+                    "B": "Extensible Mark Law.",
+                    "C": "Extensible Mark lawful.",
+                    "D": "Todas las anteriores son incorrectas."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Extensible Markup Language\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 6: REACTJS UN FRAMEWORK DE JAVASCRIPT\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "El estado o state es:\r",
+                "opciones": {
+                    "A": "Una librería de JavaScript.",
+                    "B": "Un formato de texto para el intercambio de datos.",
+                    "C": "Es la información local registrada controlada por el componente exclusivamente, no puede accederse por otros componentes.",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Es la información local registrada controlada por el componente exclusivamente, no puede accederse por otros componentes.\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "JSX son las siglas de:\r",
+                "opciones": {
+                    "A": "JavaScript Syntacsis eXtension.",
+                    "B": "Java Syntax eXtension",
+                    "C": "JavaScript Syntaxis eXtension",
+                    "D": "Todas las anteriores son incorrectas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son incorrectas.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "JSX:\r",
+                "opciones": {
+                    "A": "Crea elementos React mediante el manejo de eventos.",
+                    "B": "No permite la valoración de datos.",
+                    "C": "No posee mensajes de error.",
+                    "D": "Solo la primera y segunda son correctas."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Crea elementos React mediante el manejo de eventos.\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "La sintaxis de componentes en React posee normas:\r",
+                "opciones": {
+                    "A": "Nombre con la primera letra en minúscula.",
+                    "B": "Compilar con el método React.createElement().",
+                    "C": "Etiquetas en mayúscula son etiquetas del DOM.",
+                    "D": "Todas de las anteriores son correctas."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Compilar con el método React.createElement().\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "Los parámetros que intercambian un componente principal con un componente subordinado son:\r",
+                "opciones": {
+                    "A": "Props.",
+                    "B": "State.",
+                    "C": "Info.",
+                    "D": "Post."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Props.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "Los Presentational component son:\r",
+                "opciones": {
+                    "A": "Componentes que contiene un estado.",
+                    "B": "Componente que no contienen estado.",
+                    "C": "Componentes que se encargan de que la aplicación funcione.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "React es para JavaScript:\r",
+                "opciones": {
+                    "A": "Una librería.",
+                    "B": "Una hoja de estilo.",
+                    "C": "Un programa de compilación.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Una librería.\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "React nos permite:\r",
+                "opciones": {
+                    "A": "Crear aplicaciones.",
+                    "B": "Depurar código.",
+                    "C": "Ejecutar diagnósticos en nuestro equipo.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Crear aplicaciones.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Un componente React es un elemento de software visual:\r",
+                "opciones": {
+                    "A": "Esta afirmación es cierta.",
+                    "B": "Esta afirmación es falsa.",
+                    "C": "Esta afirmación es falsa, pues posee su propia lógica de uso.",
+                    "D": "Esta afirmación es falsa, solo será verdadera si se combina React Native."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Esta afirmación es cierta.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Virtual DOM es un concepto de:\r",
+                "opciones": {
+                    "A": "JavaScript.",
+                    "B": "React.",
+                    "C": "C++.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "React.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD GLOBAL: PRUEBA DE REPASO \r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "¿Javascript es case-sensitive (Sensible a mayúsculas y minúsculas)?\r",
+                "opciones": {
+                    "A": "No. Es lo mismo var nombre; que var Nombre;",
+                    "B": "Si. No es lo mismo var nombre; que var Nombre;",
+                    "C": "Según el contexto, solo es case-sensitive para datos númericos",
+                    "D": "Ningúna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Si. No es lo mismo var nombre; que var Nombre;\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "¿Qué característica tiene los componentes de React?\r",
+                "opciones": {
+                    "A": "Poseen un estado (state)",
+                    "B": "Poseen propiedades (props)",
+                    "C": "Su nombre empieza con la primera letra en mayúsculas",
+                    "D": "Todas son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas son correctas.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "¿Qué elemento se tiene que cargar al principio de la aplicación de React?\r",
+                "opciones": {
+                    "A": "root",
+                    "B": "menu",
+                    "C": "layout",
+                    "D": "button"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "root\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "¿Qué es jQuery?\r",
+                "opciones": {
+                    "A": "Es una biblioteca de Javascript con funciones de manipular el DOM.",
+                    "B": "Es un lenguaje de base de datos.",
+                    "C": "Es un elemento del DOM",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Es una biblioteca de Javascript con funciones de manipular el DOM.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "¿Qué es localStorage?\r",
+                "opciones": {
+                    "A": "Cookies",
+                    "B": "Almacenamiento local",
+                    "C": "Un tipo de variable",
+                    "D": "Una ubicación de memoria"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Almacenamiento local\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "¿Qué es un evento?\r",
+                "opciones": {
+                    "A": "Un acción concreta que se produce sobre un elemento",
+                    "B": "Un cambio de valor en una variable en un momento dado.",
+                    "C": "Una llamada a una función",
+                    "D": "Un tipo de instrucción en javascript"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Un acción concreta que se produce sobre un elemento\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "¿Qué hace el método getElementById()?\r",
+                "opciones": {
+                    "A": "Obtiene un elemento según su identificador",
+                    "B": "Obtiene un elemento según el nombre de su etiqueta",
+                    "C": "Obtiene un elemento según el tipo de clase de estilo que utiliza",
+                    "D": "Ninguno de los anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Obtiene un elemento según su identificador\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "¿Qué hace el objeto history del BOM?\r",
+                "opciones": {
+                    "A": "Muestra un histórico de cambios sobre la página HTML",
+                    "B": "Permite cargar la página anterior o siguiente",
+                    "C": "Muestra información del navegador",
+                    "D": "Permite manejar la ventana del navegador."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Permite cargar la página anterior o siguiente\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "¿Qué hace la función alert(\"\");?\r",
+                "opciones": {
+                    "A": "Crea una alarma del reloj",
+                    "B": "Muestra por el navegador un mensaje en un cuadro emergente.",
+                    "C": "Genera código HTML.",
+                    "D": "Muestra por el navegador la fecha y hora."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Muestra por el navegador un mensaje en un cuadro emergente.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "¿Qué hace la función load(url) de jQuery?\r",
+                "opciones": {
+                    "A": "Refresca la página web",
+                    "B": "Carga datos del servidor",
+                    "C": "Construye un objeto http",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Carga datos del servidor\r"
+            },
+            {
+                "numero": "11",
+                "pregunta": "¿Qué objeto tenemos que utilizar en una petición de AJAX?\r",
+                "opciones": {
+                    "A": "XMLHttpRequest",
+                    "B": "AJAXRequest",
+                    "C": "JSONRequest",
+                    "D": "DOMRequest"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "XMLHttpRequest\r"
+            },
+            {
+                "numero": "12",
+                "pregunta": "¿Qué resultado da la siguiente instrucción \"HOLA\".toLowerCase();?\r",
+                "opciones": {
+                    "A": "hola",
+                    "B": "Hola",
+                    "C": "HOLA",
+                    "D": "HoLa"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "hola\r"
+            },
+            {
+                "numero": "13",
+                "pregunta": "¿Qué significa la etiqueta <script>?\r",
+                "opciones": {
+                    "A": "El inicio de instrucciones de javascript",
+                    "B": "Permite crear un enlace a otro fichero html",
+                    "C": "El inicio de un archivo multimedia",
+                    "D": "El inicio de una macro."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "El inicio de instrucciones de javascript\r"
+            },
+            {
+                "numero": "14",
+                "pregunta": "¿Qué tipo de componentes nos encontramos en React según su uso?\r",
+                "opciones": {
+                    "A": "Contenedor y Presentación.",
+                    "B": "Stateful, Stateless, Container, Presentational",
+                    "C": "Stateful y Container.",
+                    "D": "No hay tipos de componentes todos son iguales."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Stateful, Stateless, Container, Presentational\r"
+            },
+            {
+                "numero": "15",
+                "pregunta": "¿Qué tipo es la siguiente línea de código? var contacto = {nombre:\"José\", edad:\"20\"}\r",
+                "opciones": {
+                    "A": "Es un array unidimensional",
+                    "B": "Es un array multidimensional",
+                    "C": "Es un objeto",
+                    "D": "Es un enumerando"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Es un objeto\r"
+            },
+            {
+                "numero": "16",
+                "pregunta": "AJAX es empleado por:\r",
+                "opciones": {
+                    "A": "JavaScript para la comunicación asíncrona con el servidor.",
+                    "B": "XML como hoja de estilo.",
+                    "C": "HTML para la comunicación entre servidores.",
+                    "D": "W3C para la creación de estándares CSS."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "JavaScript para la comunicación asíncrona con el servidor.\r"
+            },
+            {
+                "numero": "17",
+                "pregunta": "Appendchild() nos permite:\r",
+                "opciones": {
+                    "A": "Crear nodo tipo Element.",
+                    "B": "Crear nodo tipo Text.",
+                    "C": "Asociar nodos Element y Text.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Asociar nodos Element y Text.\r"
+            },
+            {
+                "numero": "18",
+                "pregunta": "Con JavaScript se pueden realizar diferentes funciones como:\r",
+                "opciones": {
+                    "A": "Modificar el contenido HTML de una web",
+                    "B": "Cambiar atributos de objetos HTML",
+                    "C": "Modificar el estilo de CSS",
+                    "D": "Todas son correctas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas son correctas\r"
+            },
+            {
+                "numero": "19",
+                "pregunta": "DOM hace referencia a:\r",
+                "opciones": {
+                    "A": "Development Of Model.",
+                    "B": "Development Object Model",
+                    "C": "Document Of Model.",
+                    "D": "Document Object Model"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Document Object Model\r"
+            },
+            {
+                "numero": "20",
+                "pregunta": "El código de javascript nos lo podemos encontrar\r",
+                "opciones": {
+                    "A": "En el mismo fichero HTML",
+                    "B": "En ficheros separados",
+                    "C": "La opción A y B son correctas.",
+                    "D": "Ninguna es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "La opción A y B son correctas.\r"
+            },
+            {
+                "numero": "21",
+                "pregunta": "El siguiente código que representa:{ algo[cosas{nombre:valor,nombre:valor},{nombre:valor,nombre:valor}], otro algo []}\r",
+                "opciones": {
+                    "A": "Un XML.",
+                    "B": "Un JSON.",
+                    "C": "Instrucciones de javascript.",
+                    "D": "Etiquetas HTML."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Un JSON.\r"
+            },
+            {
+                "numero": "22",
+                "pregunta": "En AJAX, DOM permite:\r",
+                "opciones": {
+                    "A": "La interacción y manipulación dinámica de la presentación.",
+                    "B": "Crear una presentación basada en estándares.",
+                    "C": "El intercambio y la manipulación de información.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "La interacción y manipulación dinámica de la presentación.\r"
+            },
+            {
+                "numero": "23",
+                "pregunta": "Existen una serie de funciones globales en JavaScript como:\r",
+                "opciones": {
+                    "A": "setl().",
+                    "B": "cedfer().",
+                    "C": "eval().",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "eval().\r"
+            },
+            {
+                "numero": "24",
+                "pregunta": "Indica que tipo de evento no es correcto\r",
+                "opciones": {
+                    "A": "Mover el ratón",
+                    "B": "Pulsar una tecla",
+                    "C": "Cerrar el navegador",
+                    "D": "Cargar la página web"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Cerrar el navegador\r"
+            },
+            {
+                "numero": "25",
+                "pregunta": "Indica si el objeto es un array:\r",
+                "opciones": {
+                    "A": "isArray().",
+                    "B": "slice().",
+                    "C": "push().",
+                    "D": "shift()."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "isArray().\r"
+            },
+            {
+                "numero": "26",
+                "pregunta": "JSON es:\r",
+                "opciones": {
+                    "A": "Una alternativa a XML.",
+                    "B": "Un formato de texto para el intercambio de datos.",
+                    "C": "Un formato de texto de JavaScript.",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas.\r"
+            },
+            {
+                "numero": "27",
+                "pregunta": "JSX:\r",
+                "opciones": {
+                    "A": "Crea elementos React mediante el manejo de eventos.",
+                    "B": "No permite la valoración de datos.",
+                    "C": "No posee mensajes de error.",
+                    "D": "Solo la primera y segunda son correctas."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Crea elementos React mediante el manejo de eventos.\r"
+            },
+            {
+                "numero": "28",
+                "pregunta": "Las cookies se definen como:\r",
+                "opciones": {
+                    "A": "Función que recurre continuamente a ella misma hasta obtener una solución.",
+                    "B": "Elementos que se definen e interactúan en la función.",
+                    "C": "Almacenamiento de información generada por la navegación en una página web cuyas funciones consisten en recordar el acceso a una página web y la evaluación de los hábitos de navegación.",
+                    "D": "Adquisición de la actividad en la web de forma diferente a las cookies."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Almacenamiento de información generada por la navegación en una página web cuyas funciones consisten en recordar el acceso a una página web y la evaluación de los hábitos de navegación.\r"
+            },
+            {
+                "numero": "29",
+                "pregunta": "Las instrucciones de JavaScript terminan en:\r",
+                "opciones": {
+                    "A": "Comillas",
+                    "B": "Punto y coma",
+                    "C": "Sin nada",
+                    "D": "Coma"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Punto y coma\r"
+            },
+            {
+                "numero": "30",
+                "pregunta": "Los comentarios se pueden definir en JavaScript como:\r",
+                "opciones": {
+                    "A": "\/\/Comentario",
+                    "B": "\/*Comentario*\/",
+                    "C": "A y B son correctas",
+                    "D": "<!--Comentario-->"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "A y B son correctas\r"
+            },
+            {
+                "numero": "31",
+                "pregunta": "Los identificadores de las variables ¿Cómo deben empezar?\r",
+                "opciones": {
+                    "A": "Letra",
+                    "B": "Barra baja (_)",
+                    "C": "Símbolo dólar ($)",
+                    "D": "Todas las anteriores son correctas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas\r"
+            },
+            {
+                "numero": "32",
+                "pregunta": "Nodo de cada etiqueta. Pueden tener atributos y otros nodos:\r",
+                "opciones": {
+                    "A": "Element.",
+                    "B": "Browser.",
+                    "C": "Location.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Element.\r"
+            },
+            {
+                "numero": "33",
+                "pregunta": "Para eliminar un nodo podemos emplear:\r",
+                "opciones": {
+                    "A": "Eliminatechild().",
+                    "B": "Ridchild()",
+                    "C": "removechild().",
+                    "D": "Ninguno de los anteriores."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "removechild().\r"
+            },
+            {
+                "numero": "34",
+                "pregunta": "React es para JavaScript:\r",
+                "opciones": {
+                    "A": "Una librería.",
+                    "B": "Una hoja de estilo.",
+                    "C": "Un programa de compilación.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Una librería.\r"
+            },
+            {
+                "numero": "35",
+                "pregunta": "Si se quiere obtener solo la hora ¿Qué método emplearías?\r",
+                "opciones": {
+                    "A": "new Date()",
+                    "B": "new Time()",
+                    "C": "getHours()",
+                    "D": "getHora()"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "getHours()\r"
+            },
+            {
+                "numero": "36",
+                "pregunta": "Un comando para obtener un mensaje en la consola web desde JavaScript es:\r",
+                "opciones": {
+                    "A": "Console.log()",
+                    "B": "Document.write()",
+                    "C": "Windows.alert()",
+                    "D": "Alert()"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Console.log()\r"
+            },
+            {
+                "numero": "37",
+                "pregunta": "Un lenguaje de programación que da dinamismo a la web y se combina con el código HTML es:\r",
+                "opciones": {
+                    "A": "CSS",
+                    "B": "HTML",
+                    "C": "JavaScript",
+                    "D": "Ninguno"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "JavaScript\r"
+            },
+            {
+                "numero": "38",
+                "pregunta": "Un objeto en JavaScript es:\r",
+                "opciones": {
+                    "A": "Una forma de organización de elementos en JS",
+                    "B": "Un valor que no existe",
+                    "C": "Un código definido por el elemento function",
+                    "D": "Ninguna es correcta"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Una forma de organización de elementos en JS\r"
+            },
+            {
+                "numero": "39",
+                "pregunta": "Una variable en JavaScript se puede definir con la\/s etiqueta\/s:\r",
+                "opciones": {
+                    "A": "Var",
+                    "B": "Let",
+                    "C": "Const",
+                    "D": "Todas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas\r"
+            },
+            {
+                "numero": "40",
+                "pregunta": "Virtual DOM es un concepto de:\r",
+                "opciones": {
+                    "A": "JavaScript.",
+                    "B": "React.",
+                    "C": "C++.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "React.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD GLOBAL: RECOGIDO FUERA DEL CAMPUS\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "Es una llamada continua entre componentes principales con subordinados y que requieren de un feedback o información de vuelta:\r",
+                "opciones": {
+                    "A": "DOM",
+                    "B": "jQuery",
+                    "C": "callback",
+                    "D": "JSX"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "callback.\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "Que reglas tiene en cuenta la sintaxis JSON en JavaScript:\r",
+                "opciones": {
+                    "A": "Objetos: {}, Array: [].",
+                    "B": "Datos separados por comas.",
+                    "C": "Datos presentados como pares nombre\/valor",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "Obtiene un conjunto de nodos a partir del nombre de una etiqueta:\r",
+                "opciones": {
+                    "A": "createTextNode(\"Texto\")",
+                    "B": "getElementById(\"id\")",
+                    "C": "getElementByTagName(\"etiqueta\")",
+                    "D": "createElement(\"etiqueta\")"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "getElementByTagName(\"etiqueta\")\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Permiten ejecutar codigos en segundo plano dentro de un contexto global distinto a la ventana actual.\r",
+                "opciones": {
+                    "A": "jQuery",
+                    "B": "JSON",
+                    "C": "Web Worker",
+                    "D": "Ninguna de las anteriores"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Web Worker\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "Hace referencia al objeto que se representa en el navegador:\r",
+                "opciones": {
+                    "A": "BOM",
+                    "B": "CRD",
+                    "C": "DOM",
+                    "D": "Nodo"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "BOM\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "jQuery carga los datos directamente al servidor utilizando la funcion:\r",
+                "opciones": {
+                    "A": "$(\"p\")",
+                    "B": "get()",
+                    "C": "post()",
+                    "D": "load()"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "load()\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Es un elemento de software visual con una serie de propiedades y su propia lógica de uso:\r",
+                "opciones": {
+                    "A": "state",
+                    "B": "componente React",
+                    "C": "callback",
+                    "D": "Component"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "componente React\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Para añadir un nodo en el documento según la ubicación del nodo superior podemos emplear:\r",
+                "opciones": {
+                    "A": "removechild(nodo)",
+                    "B": "appendchild(nodo)",
+                    "C": "Element(nodo)",
+                    "D": "createTextNode(\"texto\")"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "appendchild(nodo)\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Accede al primer elemento con el selector definido:\r",
+                "opciones": {
+                    "A": "querySelector()",
+                    "B": "getElementByTagName()",
+                    "C": "getElementById()",
+                    "D": "Ninguna de las anteriores"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "querySelector()\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "El estado de un componente se puede establecer con el método:\r",
+                "opciones": {
+                    "A": "getState()",
+                    "B": "setState()",
+                    "C": "propstState()",
+                    "D": "Ninguna de las anteriores"
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "setState()\r"
+            },
+            {
+                "numero": "11",
+                "pregunta": "Container component:\r",
+                "opciones": {
+                    "A": "componente que no contiene estado",
+                    "B": "componente que contiene un estado",
+                    "C": "se encarga de que la aplicación funcione",
+                    "D": "Ninguna de las anteriores"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "se encarga de que la aplicación funcione\r"
+            }
+        ]
+    }
+]

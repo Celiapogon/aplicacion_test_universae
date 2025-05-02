@@ -83,20 +83,19 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
         setTimeout(() => {
             if (preguntaActual < preguntasTest.length - 1) {
                 preguntaActual++;
-                mostrarPregunta();
-                console.log('Pregunta actual:', preguntaActual);
+                mostrarPregunta(); 
             }
-        }, 2000);
+        }, 1500);
     }
 
     function cargarAsignaturas() {       
         selectorUnidad.style.display = 'none';        
         selectorAsignatura.style.display = 'block';
+        document.getElementById("portada").style.display = 'block'; // Mostrar la portada al cargar la aplicación
         listaAsignaturas.innerHTML = ''; // Limpiar la lista de asignaturas
         const asignaturas = [
             { id: 'servidor', nombre: 'Desarrollo Web en Entorno Servidor' },
             { id: 'cliente', nombre: 'Desarrollo Web en Entorno Cliente' },
-            { id: 'moviles', nombre: 'Desarrollo de Aplicaciones Móviles' },
             { id: 'diseno', nombre: 'Diseño de Interfaces Web' }
         ];
 
@@ -137,9 +136,6 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
                 case 'cliente':
                     mejoraFetch('DW_entorno_cliente.json');
                     break;
-                case 'moviles':
-                    mejoraFetch('DW_entorno_moviles.json');
-                    break;
                 case 'diseno':
                     mejoraFetch('Diseno_interfaces_web.json');
                     break;
@@ -149,10 +145,9 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
                     alert('Error al cargar la asignatura. Por favor, intenta de nuevo más tarde.');
                     break;
             }
+        document.getElementById("portada").style.display = 'none'; // Ocultar la portada al cargar la asignatura
     }
-    
-   
-    
+        
     // Mostrar lista de unidades disponibles
     function mostrarUnidades() {           
         selectorUnidad.style.display = 'block';
@@ -162,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
         // Añadir botón para test general
         const btnTestGeneral = document.createElement('button');
         btnTestGeneral.textContent = 'TEST GENERAL (Todas las unidades)';
-        btnTestGeneral.className = 'boton';
+        btnTestGeneral.className = 'boton boton3';
         btnTestGeneral.addEventListener('click', () => crearTestGeneral());
         listaUnidades.appendChild(btnTestGeneral);
         
@@ -170,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
         unidades.forEach((unidad, index) => {
             const btnUnidad = document.createElement('button');
             btnUnidad.textContent = unidad.titulo;
-            btnUnidad.className = 'boton';
+            btnUnidad.className = 'boton boton3';
             btnUnidad.addEventListener('click', () => seleccionarUnidad(index));
             listaUnidades.appendChild(btnUnidad);
         });
@@ -193,8 +188,7 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
         
         // Ocultar el contenido de la nota y mostrar el contenido del test
         document.getElementById('contenido-nota').style.display = 'none';
-        document.getElementById('contenido-test').style.display = 'block';
-        
+        document.getElementById('contenido-test').style.display = 'block';       
         // Restaurar la visibilidad de los elementos del test que podrían estar ocultos
         document.getElementById('pregunta-container').style.display = 'block';
         document.getElementById('navegacion').style.display = 'block';
@@ -229,8 +223,7 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
         
         // Ocultar el contenido de la nota y mostrar el contenido del test
         document.getElementById('contenido-nota').style.display = 'none';
-        document.getElementById('contenido-test').style.display = 'block';
-        
+        document.getElementById('contenido-test').style.display = 'block';               
         // Restaurar la visibilidad de los elementos del test que podrían estar ocultos
         document.getElementById('pregunta-container').style.display = 'block';
         document.getElementById('navegacion').style.display = 'block';
@@ -321,9 +314,7 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
                     mostrarResultado(respuestasUsuario[preguntaActual]);
                 }
 
-            });
-
-            
+            });           
             
             const label = document.createElement('label');
             label.htmlFor = `opcion-${letra}`;
@@ -385,9 +376,12 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
 
         // Mostrar nota final si se ha respondido a todas las preguntas
         if (preguntaActual === preguntasTest.length - 1) {
-            document.getElementById('contenido-test').style.display = 'none';
-            document.getElementById('contenido-nota').style.display = 'block';
-            mostrarNota();         
+            setTimeout(() => {
+                    document.getElementById('contenido-test').style.display = 'none';
+                    document.getElementById('contenido-nota').style.display = 'block';
+                    mostrarNota();                   
+            }, 1500);
+                  
 
         }
     }
@@ -438,7 +432,7 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
         // Crear nuevo botón
         const btnVerificarRespuestas = document.createElement('button');
         btnVerificarRespuestas.id = 'btn-verificar-respuestas';
-        btnVerificarRespuestas.className = 'boton';
+        btnVerificarRespuestas.className = 'boton2';
         btnVerificarRespuestas.textContent = 'Verificar Respuestas';
         btnVerificarRespuestas.addEventListener('click', verificarTodasLasRespuestas);
         contenidoNota.appendChild(btnVerificarRespuestas);
@@ -510,7 +504,7 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
         // Botón para volver a la nota
         const btnVolverNota = document.createElement('button');
         btnVolverNota.textContent = 'Volver a la Nota';
-        btnVolverNota.className = 'boton';
+        btnVolverNota.className = 'boton2';
         btnVolverNota.addEventListener('click', () => {
             // Eliminar el resumen
             if (document.getElementById('resumen-respuestas')) {
