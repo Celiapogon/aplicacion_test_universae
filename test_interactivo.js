@@ -59,6 +59,21 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
         aciertosSpan.textContent = aciertos;
         totalRespondidasSpan.textContent = totalRespondidas;
         
+        // Ocultar el contenido de la nota y mostrar el contenido del test
+        document.getElementById('contenido-nota').style.display = 'none';
+        document.getElementById('contenido-test').style.display = 'block';
+        
+        // Restaurar la visibilidad de los elementos del test que podrían estar ocultos
+        document.getElementById('pregunta-container').style.display = 'block';
+        document.getElementById('navegacion').style.display = 'block';
+        document.getElementById('puntuacion').style.display = 'block';
+        
+        // Eliminar el resumen de respuestas si existe
+        const resumenRespuestas = document.getElementById('resumen-respuestas');
+        if (resumenRespuestas) {
+            document.getElementById('contenido-test').removeChild(resumenRespuestas);
+        }
+        
         testContainer.style.display = 'none';
         selectorUnidad.style.display = 'block';
     });
@@ -71,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
                 mostrarPregunta();
                 console.log('Pregunta actual:', preguntaActual);
             }
-        }, 1500);
+        }, 2000);
     }
 
     function cargarAsignaturas() {       
@@ -176,6 +191,21 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
         // Actualizar el contador de preguntas totales
         totalPreguntasSpan.textContent = preguntasTest.length;
         
+        // Ocultar el contenido de la nota y mostrar el contenido del test
+        document.getElementById('contenido-nota').style.display = 'none';
+        document.getElementById('contenido-test').style.display = 'block';
+        
+        // Restaurar la visibilidad de los elementos del test que podrían estar ocultos
+        document.getElementById('pregunta-container').style.display = 'block';
+        document.getElementById('navegacion').style.display = 'block';
+        document.getElementById('puntuacion').style.display = 'block';
+        
+        // Eliminar el resumen de respuestas si existe
+        const resumenRespuestas = document.getElementById('resumen-respuestas');
+        if (resumenRespuestas) {
+            document.getElementById('contenido-test').removeChild(resumenRespuestas);
+        }
+        
         // Mostrar el contenedor del test y ocultar el selector de unidades
         selectorUnidad.style.display = 'none';
         testContainer.style.display = 'block';
@@ -196,6 +226,21 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
         totalRespondidas = 0;
         aciertosSpan.textContent = aciertos;
         totalRespondidasSpan.textContent = totalRespondidas;
+        
+        // Ocultar el contenido de la nota y mostrar el contenido del test
+        document.getElementById('contenido-nota').style.display = 'none';
+        document.getElementById('contenido-test').style.display = 'block';
+        
+        // Restaurar la visibilidad de los elementos del test que podrían estar ocultos
+        document.getElementById('pregunta-container').style.display = 'block';
+        document.getElementById('navegacion').style.display = 'block';
+        document.getElementById('puntuacion').style.display = 'block';
+        
+        // Eliminar el resumen de respuestas si existe
+        const resumenRespuestas = document.getElementById('resumen-respuestas');
+        if (resumenRespuestas) {
+            document.getElementById('contenido-test').removeChild(resumenRespuestas);
+        }
         
         // Recopilar todas las preguntas de todas las unidades
         preguntasTest = [];
@@ -381,7 +426,110 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
             mensajeNota.style.color = 'red';
         }
 
-
+        // Añadir botón para verificar respuestas
+        const contenidoNota = document.getElementById('contenido-nota');
+        
+        // Eliminar botón anterior si existe
+        const btnVerificarAnterior = document.getElementById('btn-verificar-respuestas');
+        if (btnVerificarAnterior) {
+            contenidoNota.removeChild(btnVerificarAnterior);
+        }
+        
+        // Crear nuevo botón
+        const btnVerificarRespuestas = document.createElement('button');
+        btnVerificarRespuestas.id = 'btn-verificar-respuestas';
+        btnVerificarRespuestas.className = 'boton';
+        btnVerificarRespuestas.textContent = 'Verificar Respuestas';
+        btnVerificarRespuestas.addEventListener('click', verificarTodasLasRespuestas);
+        contenidoNota.appendChild(btnVerificarRespuestas);
+    }
+    
+    // Función para verificar todas las respuestas y mostrar un resumen
+    function verificarTodasLasRespuestas() {
+        // Ocultar el contenido de la nota
+        document.getElementById('contenido-nota').style.display = 'none';
+        
+        // Mostrar el contenido del test
+        document.getElementById('contenido-test').style.display = 'block';
+        
+        // Eliminar el resumen anterior si existe
+        const resumenAnterior = document.getElementById('resumen-respuestas');
+        if (resumenAnterior) {
+            document.getElementById('contenido-test').removeChild(resumenAnterior);
+        }
+        
+        // Crear un contenedor para el resumen de respuestas
+        const resumenContainer = document.createElement('div');
+        resumenContainer.id = 'resumen-respuestas';
+        resumenContainer.className = 'resumen-container';
+        
+        // Crear título para el resumen
+        const tituloResumen = document.createElement('h2');
+        tituloResumen.textContent = 'Resumen de Respuestas';
+        tituloResumen.className = 'titulos';
+        resumenContainer.appendChild(tituloResumen);
+        
+        // Crear lista de preguntas y respuestas
+        preguntasTest.forEach((pregunta, index) => {
+            const preguntaDiv = document.createElement('div');
+            preguntaDiv.className = 'pregunta-resumen';
+            
+            // Número y texto de la pregunta
+            const preguntaTexto = document.createElement('p');
+            preguntaTexto.innerHTML = `<strong>Pregunta ${pregunta.numero}:</strong> ${pregunta.pregunta}`;
+            preguntaDiv.appendChild(preguntaTexto);
+            
+            // Respuesta del usuario
+            const respuestaUsuarioTexto = document.createElement('p');
+            const respuestaUsuario = respuestasUsuario[index];
+            
+            if (respuestaUsuario) {
+                const esCorrecta = respuestaUsuario === pregunta.respuesta_correcta;
+                respuestaUsuarioTexto.innerHTML = `<strong>Tu respuesta:</strong> ${respuestaUsuario}. ${pregunta.opciones[respuestaUsuario]}`;
+                respuestaUsuarioTexto.style.color = esCorrecta ? 'green' : 'red';
+            } else {
+                respuestaUsuarioTexto.innerHTML = '<strong>No respondida</strong>';
+                respuestaUsuarioTexto.style.color = 'orange';
+            }
+            preguntaDiv.appendChild(respuestaUsuarioTexto);
+            
+            // Respuesta correcta
+            const respuestaCorrectaTexto = document.createElement('p');
+            respuestaCorrectaTexto.innerHTML = `<strong>Respuesta correcta:</strong> ${pregunta.respuesta_correcta}. ${pregunta.opciones[pregunta.respuesta_correcta]}`;
+            respuestaCorrectaTexto.style.color = 'green';
+            preguntaDiv.appendChild(respuestaCorrectaTexto);            
+           
+            
+            // Añadir separador
+            const separador = document.createElement('hr');
+            preguntaDiv.appendChild(separador);
+            
+            resumenContainer.appendChild(preguntaDiv);
+        });
+        
+        // Botón para volver a la nota
+        const btnVolverNota = document.createElement('button');
+        btnVolverNota.textContent = 'Volver a la Nota';
+        btnVolverNota.className = 'boton';
+        btnVolverNota.addEventListener('click', () => {
+            // Eliminar el resumen
+            if (document.getElementById('resumen-respuestas')) {
+                document.getElementById('contenido-test').removeChild(document.getElementById('resumen-respuestas'));
+            }
+            
+            // Ocultar el contenido del test y mostrar el contenido de la nota
+            document.getElementById('contenido-test').style.display = 'none';
+            document.getElementById('contenido-nota').style.display = 'block';
+        });
+        resumenContainer.appendChild(btnVolverNota);
+        
+        // Añadir el resumen al contenido del test
+        document.getElementById('contenido-test').appendChild(resumenContainer);
+        
+        // Ocultar elementos del test que no son necesarios para el resumen
+        document.getElementById('pregunta-container').style.display = 'none';
+        document.getElementById('navegacion').style.display = 'none';
+        document.getElementById('puntuacion').style.display = 'none';
     }
     
    
