@@ -69,8 +69,9 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
             if (preguntaActual < preguntasTest.length - 1) {
                 preguntaActual++;
                 mostrarPregunta();
+                console.log('Pregunta actual:', preguntaActual);
             }
-        }, 3000);
+        }, 1500);
     }
 
     function cargarAsignaturas() {       
