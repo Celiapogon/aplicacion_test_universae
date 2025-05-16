@@ -8,12 +8,12 @@
   "description": "Aplicación para practicar test de DAW de Universae.",
   "icons": [
     {
-      "src": "/favicon.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/icons/vaca-512.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
