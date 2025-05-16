@@ -24,12 +24,12 @@ const btnVolver = document.getElementById('btn-volver');
 // Variables globales
 let unidades = [];
 let unidadActual = null;
-let asignaturaActual = null;
 let preguntaActual = 0;
 let respuestasUsuario = {};
 let aciertos = 0;
 let totalRespondidas = 0;
 let preguntasTest = []; // Array para almacenar las preguntas del test actual
+
 
 
 document.addEventListener('DOMContentLoaded', function() {    // Eventos para los botones de navegación
@@ -93,8 +93,6 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
         selectorAsignatura.style.display = 'block';
         document.getElementById("portada").style.display = 'block'; // Mostrar la portada al cargar la aplicación
         listaAsignaturas.innerHTML = ''; // Limpiar la lista de asignaturas
-        // Resetear la asignatura actual para evitar que se muestre el nombre anterior
-        asignaturaActual = null;
         descripcionAsignatura.textContent = '';
         const asignaturas = [
             { id: 'servidor', nombre: 'Desarrollo Web en Entorno Servidor' },
@@ -107,8 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
             btnAsignatura.textContent = asignatura.nombre;
             btnAsignatura.className = 'boton';
             btnAsignatura.addEventListener('click', () => {
-                asignaturaActual = asignatura.nombre;
-                descripcionAsignatura.textContent = asignaturaActual;
+                descripcionAsignatura.textContent = asignatura.nombre;
                 cargarDatos(asignatura.id);
             });
             listaAsignaturas.appendChild(btnAsignatura);
