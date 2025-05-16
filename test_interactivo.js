@@ -93,6 +93,9 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
         selectorAsignatura.style.display = 'block';
         document.getElementById("portada").style.display = 'block'; // Mostrar la portada al cargar la aplicación
         listaAsignaturas.innerHTML = ''; // Limpiar la lista de asignaturas
+        // Resetear la asignatura actual para evitar que se muestre el nombre anterior
+        asignaturaActual = null;
+        descripcionAsignatura.textContent = '';
         const asignaturas = [
             { id: 'servidor', nombre: 'Desarrollo Web en Entorno Servidor' },
             { id: 'cliente', nombre: 'Desarrollo Web en Entorno Cliente' },
@@ -103,10 +106,12 @@ document.addEventListener('DOMContentLoaded', function() {    // Eventos para lo
             const btnAsignatura = document.createElement('button');
             btnAsignatura.textContent = asignatura.nombre;
             btnAsignatura.className = 'boton';
-            btnAsignatura.addEventListener('click', () => cargarDatos(asignatura.id));
+            btnAsignatura.addEventListener('click', () => {
+                asignaturaActual = asignatura.nombre;
+                descripcionAsignatura.textContent = asignaturaActual;
+                cargarDatos(asignatura.id);
+            });
             listaAsignaturas.appendChild(btnAsignatura);
-            asignaturaActual = asignatura.nombre;  
-            descripcionAsignatura.textContent = asignaturaActual;      
         });
         
     }

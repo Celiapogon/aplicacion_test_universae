@@ -1,0 +1,1588 @@
+[
+    {
+        "titulo": "UNIDAD 1: INTRODUCCIÓN AL DISEÑO DE INTERFACES Y APLICACIONES PARA EL DISEÑO WEB\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "Cuál de estas herramientas no trabaja con wireframe: \r",
+                "opciones": {
+                    "A": "ProtoShare.",
+                    "B": "Pencil.",
+                    "C": "Flow.",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Flow.\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "El diseño gráfico:\r",
+                "opciones": {
+                    "A": "Cumple una función puramente estética.",
+                    "B": "Puede poseer funcionalidad dentro de la interfaz si se usa bien.",
+                    "C": "Es innecesario y debe evitarse.",
+                    "D": "Todas son incorrectas."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Puede poseer funcionalidad dentro de la interfaz si se usa bien.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "El etiquetado debe ser:\r",
+                "opciones": {
+                    "A": "Sencillo.",
+                    "B": "Estandarizado.",
+                    "C": "Fácil de recordar.",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas.\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "El sketching:\r",
+                "opciones": {
+                    "A": "Es un diseño completo que se realiza tras el prototipo a ordenador.",
+                    "B": "Es un diseño, en papel u ordenador, que ya incluye los elementos que el prototipo contendrá.",
+                    "C": "Es un diseño inicial a ordenador que incluye los elementos y se realiza tras el wireframing.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores es correcta.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "El tiempo de respuesta:\r",
+                "opciones": {
+                    "A": "Debe ser breve para no ralentizar la página.",
+                    "B": "Debe ser medio, ni corto ni largo, para que los usuarios se puedan adaptar a él y sin provocar esperas pesadas.",
+                    "C": "Debe ser largo pensando en los usuarios que requieren más tiempo, aunque ello produzca esperas.",
+                    "D": "No debe haber tiempos de espera en una interfaz."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Debe ser medio, ni corto ni largo, para que los usuarios se puedan adaptar a él y sin provocar esperas pesadas.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "La interacción persona-ordenador también puede ser nombrada como:\r",
+                "opciones": {
+                    "A": "Interacción cibernética.",
+                    "B": "IPO o IPC.",
+                    "C": "IPO o HCI.",
+                    "D": "Todas son correctas."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "IPO o HCI.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Las clases de prototipo son:\r",
+                "opciones": {
+                    "A": "Ascendente, descendente y estacionario.",
+                    "B": "Evolutivo, elemental y hemisférico.",
+                    "C": "Lineal, oblicuo y circular.",
+                    "D": "Horizontal, vertical y diagonal."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Horizontal, vertical y diagonal.\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Los agentes que participan en la producción de una interfaz son:\r",
+                "opciones": {
+                    "A": "Cliente.",
+                    "B": "Usuario.",
+                    "C": "Presupuesto.",
+                    "D": "Todas son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas son correctas.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Los layouts:\r",
+                "opciones": {
+                    "A": "Son aplicaciones para la creación de páginas web.",
+                    "B": "Son diseños básicos, en papel, con los que establecer objetivos y jerarquías.",
+                    "C": "Bloques o partes comunes en el diseño de páginas web.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Bloques o partes comunes en el diseño de páginas web.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Una de las herramientas más empleadas para la creación de interfaces es:\r",
+                "opciones": {
+                    "A": "El prototipo.",
+                    "B": "El diseño gráfico.",
+                    "C": "El empleo de computadoras de alta gama.",
+                    "D": "Todas las anteriores son incorrectas."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "El prototipo.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 2:  ELEMENTOS PARA EL DISEÑO WEB\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "El hexadecimal es:\r",
+                "opciones": {
+                    "A": "Un sistema lingüístico que tan solo emplea como cifras “0” y “1”.",
+                    "B": "Sistema de numeración con base en el número 6.",
+                    "C": "Sistema de numeración con base en el número 16.",
+                    "D": "Sistema de numeración con base en el número 60."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Sistema de numeración con base en el número 16.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "El volumen:\r",
+                "opciones": {
+                    "A": "Posee largo, ancho y grosor, se forma con diferentes planos y forma una imagen aparentemente tridimensional, aunque, realmente, sigue siendo bidimensional..",
+                    "B": "Posee largo y ancho, delimita un volumen con líneas y posee dirección.",
+                    "C": "Designa una ubicación un no posee ancho ni largo, no ocupa espacio y une diferentes líneas.",
+                    "D": "Posee largo, pero no ancho y sus dos extremos se designan con puntos."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Posee largo, ancho y grosor, se forma con diferentes planos y forma una imagen aparentemente tridimensional, aunque, realmente, sigue siendo bidimensional..\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "En el sistema RGB:\r",
+                "opciones": {
+                    "A": "Los tonos de los colores aditivos se numeran de 0 a 255.",
+                    "B": "Los tonos de los colores no aditivos se numeran de 0 a 255",
+                    "C": "Los tonos de los colores aditivos se numeran de 1 a 256.",
+                    "D": "Los tonos de los colores no aditivos se numeran de 1 a 256"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Los tonos de los colores aditivos se numeran de 0 a 255.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "Las principales partes de maquetación de una página web son:\r",
+                "opciones": {
+                    "A": "Cabecera, pie de página, footer y cuerpo.",
+                    "B": "Cabecera , pie de página, sistema de navegación y header.",
+                    "C": "Cabecera , pie de página, sistema de navegación, header y footer.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores es correcta.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "Las zonas de una página web son:\r",
+                "opciones": {
+                    "A": "De navegación y de footer.",
+                    "B": "De índices y de menús.",
+                    "C": "De navegación y de cuerpo.",
+                    "D": "De navegación y de índices."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "De navegación y de cuerpo.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Los colores complementarios son los opuestos en un círculo cromático por su: \r",
+                "opciones": {
+                    "A": "Saturación.",
+                    "B": "Matiz.",
+                    "C": "Brillo.",
+                    "D": "Saturación, pero no son opuestos en el círculo sino contiguos."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Matiz.\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Los colores seguros:\r",
+                "opciones": {
+                    "A": "Representación de los colores totales que el ojo humano es capaz de percibir.",
+                    "B": "Colores que no cambian su representación sin importar el navegador, sistema operativo o navegador.",
+                    "C": "No existen los colores seguros.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Colores que no cambian su representación sin importar el navegador, sistema operativo o navegador.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Los true-color:\r",
+                "opciones": {
+                    "A": "Representación de los colores totales que el ojo humano es capaz de percibir.",
+                    "B": "Colores que no cambian su representación sin importar el navegador, sistema operativo o navegador.",
+                    "C": "No existen los colores seguros.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Representación de los colores totales que el ojo humano es capaz de percibir.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Un wireframe es:\r",
+                "opciones": {
+                    "A": "Un tipo de elemento de unión entre índices.",
+                    "B": "Un tipo de boceto.",
+                    "C": "Un tipo de aplicación de corrección para páginas web.",
+                    "D": "Todas son incorrectas."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Un tipo de boceto.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 3: GUÍAS DE ESTILO Y LENGUAJE DE MARCAS\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "Cuál de estas no es una de las nuevas etiquetas de HTML5:\r",
+                "opciones": {
+                    "A": "article",
+                    "B": "section",
+                    "C": "mark",
+                    "D": "div"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "div\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "El atributo HREF se emplea para:\r",
+                "opciones": {
+                    "A": "Cambiar el formato de un texto.",
+                    "B": "Seleccionar la orientación de un texto.",
+                    "C": "Crear enlaces.",
+                    "D": "Todas las anteriores son incorrectas."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Crear enlaces.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "Fuentes seguras:\r",
+                "opciones": {
+                    "A": "En informática páginas seguras desde donde extraer plantillas.",
+                    "B": "En informática fuentes tipográficas instaladas por defecto en los dispositivos.",
+                    "C": "En informática etiquetas de un lenguaje de marcas que funcionan en todos los navegadores.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "En informática fuentes tipográficas instaladas por defecto en los dispositivos.\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Gama de colores:\r",
+                "opciones": {
+                    "A": "Color predominante en una página web.",
+                    "B": "Conjunto de dos colores opuestos.",
+                    "C": "Conjunto de colores predeterminados empleados para dar homogeneidad a las diferentes páginas de un sitio WEB.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Conjunto de colores predeterminados empleados para dar homogeneidad a las diferentes páginas de un sitio WEB.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "La etiqueta <input> permite introducir elementos como:\r",
+                "opciones": {
+                    "A": "Tablas.",
+                    "B": "Enlaces.",
+                    "C": "Videos.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores es correcta.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "La etiqueta Radio permite:\r",
+                "opciones": {
+                    "A": "Crear una lista desplegable.",
+                    "B": "Crear hipervínculos.",
+                    "C": "Crear opciones de las cuales debemos elegir una.",
+                    "D": "Ninguna es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Crear opciones de las cuales debemos elegir una.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "La etiqueta SELECT permite:\r",
+                "opciones": {
+                    "A": "Seleccionar y cambiar el formato de un texto específico.",
+                    "B": "Seleccionar una celda de una tabla..",
+                    "C": "Seleccionar el valor de un atributo.",
+                    "D": "Ninguna es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna es correcta.\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Las etiquetas H como <H1> o <H2> son:\r",
+                "opciones": {
+                    "A": "Filas de tablas.",
+                    "B": "Columnas de tablas.",
+                    "C": "Encabezados.",
+                    "D": "Celdas individuales de tablas."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Encabezados.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Submit se emplea junto al atributo:\r",
+                "opciones": {
+                    "A": "Type.",
+                    "B": "Value.",
+                    "C": "Check.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Type.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Tipografía:\r",
+                "opciones": {
+                    "A": "En informática tipo de estilo de letra caracterizado por un diseño específico.",
+                    "B": "En informática conjunto de formatos de una plantilla.",
+                    "C": "En informática estilo empleado en el texto plano monoespacio.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "En informática tipo de estilo de letra caracterizado por un diseño específico.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 4: LENGUAJE DE HOJAS DE ESTILO CSS\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "\"padding\" te permite:\r",
+                "opciones": {
+                    "A": "Especificar la distancia entre los límites de las cajas.",
+                    "B": "Especificar el formato de los encabezados.",
+                    "C": "Especificar el tamaño de las sombras.",
+                    "D": "Especificar los bordes de las sombras."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Especificar la distancia entre los límites de las cajas.\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "Background-origin es:\r",
+                "opciones": {
+                    "A": "Un tipo de formato de letra.",
+                    "B": "Una nueva propiedad de CSS3.",
+                    "C": "Una propiedad que introduce una animación.",
+                    "D": "B y C son correctas."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Una nueva propiedad de CSS3.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "Cuál de estos atributos de la etiqueta no es obligatorio:\r",
+                "opciones": {
+                    "A": "\"type\"",
+                    "B": "\"href\"",
+                    "C": "\"rel\"",
+                    "D": "\"media\""
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "\"media\"\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "El atributo = [atributos*=\"valor\"] designa:\r",
+                "opciones": {
+                    "A": "Seleccionar aquellos elementos cuyo atributo empiece por el valor indicado.",
+                    "B": "Seleccionar aquellos elementos cuyo atributo termine por el valor indicado.",
+                    "C": "Seleccionar aquellos elementos cuyo atributo contenga el valor indicado.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Seleccionar aquellos elementos cuyo atributo contenga el valor indicado.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "Esta no es una de las nuevas propiedades de CSS3:\r",
+                "opciones": {
+                    "A": "Animaciones.",
+                    "B": "Bordes de las cajas.",
+                    "C": "Sombras.",
+                    "D": "Esquinas redondeadas."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Bordes de las cajas.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "Herencia:\r",
+                "opciones": {
+                    "A": "Mecanismo que permite a un elemento hijo heredar las propiedades del padre.",
+                    "B": "Mecanismo que permite a un elemento hijo heredar los valores del padre.",
+                    "C": "Mecanismo que permite a un elemento hijo heredar las etiquetas del padre.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Mecanismo que permite a un elemento hijo heredar las propiedades del padre.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Los valores de la transparencia de color varían entre: \r",
+                "opciones": {
+                    "A": "0 y 1.",
+                    "B": "0 y 10.",
+                    "C": "1 y 10.",
+                    "D": "1 y 100"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "0 y 1.\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Modelo de cajas:\r",
+                "opciones": {
+                    "A": "Etiqueta de CSS.",
+                    "B": "Etiqueta de HTML.",
+                    "C": "Etiqueta de HTML5.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores es correcta.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Para la creación de esquinas redondeadas podemos crearlos introduciendo:\r",
+                "opciones": {
+                    "A": "Un valor.",
+                    "B": "Dos valores.",
+                    "C": "Tres valores.",
+                    "D": "Cuatro valores."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Cuatro valores.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "v-offset define:\r",
+                "opciones": {
+                    "A": "El tamaño de una imagen.",
+                    "B": "El desplazamiento de una sombra verticalmente.",
+                    "C": "El tamaño de una imagen, pero solo en el eje vertical.",
+                    "D": "Ninguna es correcta."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "El desplazamiento de una sombra verticalmente.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 5:  SELECTORES. CLASES E IDENTIFICADORES\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": ":first-letter es un:\r",
+                "opciones": {
+                    "A": "Selector etiqueta.",
+                    "B": "Pseudoelemento.",
+                    "C": "Pseudoclase.",
+                    "D": "Pseudodeclaración."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Pseudoelemento.\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "Declaración:\r",
+                "opciones": {
+                    "A": "En informática parte de la regla que designa un elemento o elementos específicos..",
+                    "B": "En informática selector que permite seleccionar todos los elementos de una página..",
+                    "C": "En informática etiquetas de un lenguaje de marcas que funcionan en todos los navegadores.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores es correcta.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "El valor de un selector:\r",
+                "opciones": {
+                    "A": "Debe adecuarse al elemento designado.",
+                    "B": "Debe declararse siempre.",
+                    "C": "No existe, en una regla solo la declaración posee valores.",
+                    "D": "Ninguna es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "No existe, en una regla solo la declaración posee valores.\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Los dos elementos que conforman una regla son:\r",
+                "opciones": {
+                    "A": "Bloques de declaración y bloques de estilo.",
+                    "B": "Selectores e identificadores.",
+                    "C": "Declaraciones y selectores.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Declaraciones y selectores.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "Los elementos que pueden cambiar su estado se designan con:\r",
+                "opciones": {
+                    "A": "No existen tales elementos.",
+                    "B": "Pseudoelemento.",
+                    "C": "Pseudoclase.",
+                    "D": "Pseudodeclaración."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Pseudoclase.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "Los identificadores emplean el atributo:\r",
+                "opciones": {
+                    "A": "id.",
+                    "B": "idem.",
+                    "C": "iden.",
+                    "D": "idi."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "id.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Los selectores de estilo se emplean en elementos:\r",
+                "opciones": {
+                    "A": "Con una etiqueta específica.",
+                    "B": "Con un estado que puede cambiar, pero solo una vez..",
+                    "C": "Que no son designados por ningún otro selector.",
+                    "D": "Ninguna es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna es correcta.\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Los selectores descendentes suelen emplearse:\r",
+                "opciones": {
+                    "A": "Por sí mismos.",
+                    "B": "En combinación con otros tipos de selectores.",
+                    "C": "No existen los selectores descendentes, se denominan ascendentes.",
+                    "D": "En combinación exclusivamente con los selectores universales."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "En combinación con otros tipos de selectores.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Los selectores pueden ser:\r",
+                "opciones": {
+                    "A": "Universales.",
+                    "B": "Etiquetas.",
+                    "C": "Descendentes.",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Selector universal:\r",
+                "opciones": {
+                    "A": "En informática parte de la regla que designa un elemento o elementos específicos.",
+                    "B": "En informática elemento que permite seleccionar todos los elementos de una página.",
+                    "C": "En informática estilo empleado en el texto plano monoespacio.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "En informática elemento que permite seleccionar todos los elementos de una página.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 6: PROPIEDADES CSS, TEXTO Y FUENTE, COLORES Y FONDO, FLOTAR Y POSICIONAR\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "font-style:\r",
+                "opciones": {
+                    "A": "Permite seleccionar el tipo de fuente deseado,",
+                    "B": "Permite seleccionar el tamaño de la letra,",
+                    "C": "Permite seleccionar la inclinación de las letras,",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Permite seleccionar la inclinación de las letras,\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "Font-weight:\r",
+                "opciones": {
+                    "A": "Permite seleccionar el tipo de fuente deseado,",
+                    "B": "Permite seleccionar el tamaño de la letra,",
+                    "C": "Permite seleccionar la inclinación de las letras,",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores es correcta.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "La propiedad del fondo opacity posee valores de:\r",
+                "opciones": {
+                    "A": "1 a 10.",
+                    "B": "0 a 10.",
+                    "C": "0 a 1.",
+                    "D": "1 a 5."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "0 a 1.\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Los elementos que pueden cambiar su estado se designan con:\r",
+                "opciones": {
+                    "A": "Código hexadecimal.",
+                    "B": "Código RGB.",
+                    "C": "Código HSL.",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "Los valores de font-weight pueden ser: \r",
+                "opciones": {
+                    "A": "Cursiva.",
+                    "B": "Oblicua",
+                    "C": "Las dos anteriores son correctas.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores es correcta.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "Tamaño absoluto:\r",
+                "opciones": {
+                    "A": "En informática dimensiones de una figura que se establecen en función del elemento padre, se basa en una lista de tamaños predefinidos.",
+                    "B": "En informática tamaño máximo posible de una imagen antes de perder calidad.",
+                    "C": "En informática tamaño mínimo de una imagen para que sea comprensible.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores es correcta.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Tamaño relativo:\r",
+                "opciones": {
+                    "A": "En informática tamaño máximo que puede alcanzar una imagen en función de la pantalla donde se muestre.",
+                    "B": "En informática dimensiones de una figura que se establecen en función del elemento padre, se basa en una lista de tamaños predefinidos.",
+                    "C": "En informática tamaño exactamente igual a otro.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "En informática dimensiones de una figura que se establecen en función del elemento padre, se basa en una lista de tamaños predefinidos.\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Text-align tiene como valor predeterminado:\r",
+                "opciones": {
+                    "A": "Izquierda.",
+                    "B": "Derecha.",
+                    "C": "Centrado.",
+                    "D": "Justificado."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Izquierda.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Text-decoration puede ir acompañado de::\r",
+                "opciones": {
+                    "A": "color.",
+                    "B": "style.",
+                    "C": "thickness.",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "underline, overline y line-through acompañan a:\r",
+                "opciones": {
+                    "A": "text-decoration-color.",
+                    "B": "Text-decoration-thickness.",
+                    "C": "text-decoration-style.",
+                    "D": "text-decoration-line."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "text-decoration-line.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 7:  IMÁGENES Y SOFTWARE DE GESTIÓN DE RECURSOS GRÁFICOS\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "Gif:\r",
+                "opciones": {
+                    "A": "Es un formato de imagen que admite 24 bits de color.",
+                    "B": "Es un formato de imagen de gran tamaño.",
+                    "C": "Es un formato de imagen que admite animación.",
+                    "D": "Gif no es formato de imagen."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Es un formato de imagen que admite animación.\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "La compresión de la imagen:\r",
+                "opciones": {
+                    "A": "Produce siempre una pérdida de calidad.",
+                    "B": "Puede producir pérdida de calidad o no según el medio empleado y el formato.",
+                    "C": "No produce pérdida de calidad.",
+                    "D": "Produce pérdida de calidad, pero se puede recuperar si se descomprime."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Puede producir pérdida de calidad o no según el medio empleado y el formato.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "La ecuación empleada para calcular el tamaño de una imagen es:\r",
+                "opciones": {
+                    "A": "Tamaño=R2∙L∙A∙P",
+                    "B": "Tamaño=R∙L∙A·P2",
+                    "C": "Tamaño=R2∙L+A∙P",
+                    "D": "Tamaño=R∙L2∙A-P"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Tamaño=R2∙L∙A∙P\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "La profundidad de color que posee 65 536 de estos es:\r",
+                "opciones": {
+                    "A": "8 bits.",
+                    "B": "16 bits.",
+                    "C": "24 bits",
+                    "D": "32 bits."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "16 bits.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "La resolución se determina por:\r",
+                "opciones": {
+                    "A": "Las ppp.",
+                    "B": "Las ppc.",
+                    "C": "Las pcr.",
+                    "D": "Las ppp divididas por el tamaño de la imagen."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Las ppp.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "Las licencias Creative Commons se basan en estos fundamentos:\r",
+                "opciones": {
+                    "A": "cuatro conceptos: autoría, compartir igual, no comercial y derivados.",
+                    "B": "Tres conceptos: autoría, compartir igual y no comercial.",
+                    "C": "cuatro conceptos: autoría, distribución, no comercial y derivados.",
+                    "D": "Cuatro conceptos: autoría, compartir igual, no comercial y no derivados."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Cuatro conceptos: autoría, compartir igual, no comercial y no derivados.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Los iconos:\r",
+                "opciones": {
+                    "A": "Son empleados para representar marcar, personas sociedades, etc.",
+                    "B": "Son imagen rasterizadas de gran calidad por su tamaño.",
+                    "C": "Se usan ampliamente en las interfaces gráficas.",
+                    "D": "Ninguna es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Se usan ampliamente en las interfaces gráficas.\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Photoshop es una aplicación especializada en:\r",
+                "opciones": {
+                    "A": "La visualización de imágenes.",
+                    "B": "La edición de imágenes.",
+                    "C": "La creación de imágenes.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "La edición de imágenes.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Una imagen rasterizada:\r",
+                "opciones": {
+                    "A": "Imagen formada mediante figuras geométricas representadas por fórmulas numéricas.",
+                    "B": "Imagen que no perderá calidad al agrandarse o acercarse, manteniéndose siempre perfecta.",
+                    "C": "Recomendada para imágenes de gran complejidad como las fotografías.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Recomendada para imágenes de gran complejidad como las fotografías.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Una imagen vectorizada:\r",
+                "opciones": {
+                    "A": "Está formada mediante un conjunto de puntos de color llamados píxeles.",
+                    "B": "Es recomendada para imágenes con muchos matices de color como son las fotografías.",
+                    "C": "Perderá calidad cuando su tamaño se agrande o se acerque la imagen.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 8: ELEMENTOS INTERACTIVOS EN LA WEB: SONIDO, VÍDEO Y ANIMACIONES\r",
+        "preguntas": [
+            {
+                "numero": "2",
+                "pregunta": "animation-fill-mode permite:\r",
+                "opciones": {
+                    "A": "Determinar el tiempo que llevará a cabo la acción de la animación.",
+                    "B": "Determinar si tras la animación esta debe volver al fotograma inicial o volver al principio.",
+                    "C": "Especificar el valor de las propiedades de la animación cuando esta finaliza.",
+                    "D": "Ninguna es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Especificar el valor de las propiedades de la animación cuando esta finaliza.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "CBR:\r",
+                "opciones": {
+                    "A": "Bits empleados por segundo de audio.",
+                    "B": "Algoritmo de compresión de audio.",
+                    "C": "Medida de volumen de audio.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores es correcta. \r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Cuál de estas no es un valor de transition-timing-function:\r",
+                "opciones": {
+                    "A": "Ease-in.",
+                    "B": "Ease-out-in.",
+                    "C": "Ease-out.",
+                    "D": "Ease-in-out."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Ease-out-in.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "El formato que es empleado especialmente para descargas por su bajo peso y gran calidad y es posible emplearlo para streaming online.:\r",
+                "opciones": {
+                    "A": "Ogg.",
+                    "B": "MP4.",
+                    "C": "Mov.",
+                    "D": "Wmv."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "MP4.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "La frecuencia se mide en: \r",
+                "opciones": {
+                    "A": "Hertzios.",
+                    "B": "Vibraciones por hora.",
+                    "C": "Número de instancias.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Hertzios.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "La propiedad de video que permite la reproducción en bucle es:\r",
+                "opciones": {
+                    "A": "Autoplay.",
+                    "B": "Bucl.",
+                    "C": "Loop.",
+                    "D": "Wmv."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Loop.\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "La propiedad transition nos permite:\r",
+                "opciones": {
+                    "A": "Introducir instrucciones @keyframes.",
+                    "B": "Modificar la velocidad entre los estados de animación.",
+                    "C": "Controlar las transiciones de los diferentes segmentos de una animación.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Modificar la velocidad entre los estados de animación.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "La velocidad de transmisión es: \r",
+                "opciones": {
+                    "A": "El número de vibraciones por segundo.",
+                    "B": "Los hertzios por segundo.",
+                    "C": "El número de vibraciones por minuto.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores es correcta. \r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "Los píxeles por fotograma determinan:\r",
+                "opciones": {
+                    "A": "El espacio en MB que ocupa el archivo.",
+                    "B": "Número de fotogramas.",
+                    "C": "Tamaño del clip.",
+                    "D": "Tamaño del fotograma."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Tamaño del fotograma.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD 9:  USABILIDAD, ACCESIBILIDAD Y NAVEGACIÓN EN LA WEB. ANÁLISIS Y VERIFICACIÓN EN LA WEB\r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "A qué dos fases puede pasar un proyecto tras la etapa de diseño:\r",
+                "opciones": {
+                    "A": "Diseño e implementación.",
+                    "B": "Puesta en producción y mantenimiento.",
+                    "C": "Diseño y puesta en producción.",
+                    "D": "Planificación y diseño."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Diseño y puesta en producción.\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "La evaluación heurística: \r",
+                "opciones": {
+                    "A": "Es llevado a cabo por los propios usuarios.",
+                    "B": "Es llevado a cabo por profesionales.",
+                    "C": "Es llevado a cabo por usuarios beta tester.",
+                    "D": "No es un tipo de evaluación."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Es llevado a cabo por profesionales.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "La navegación en la web requiere de:\r",
+                "opciones": {
+                    "A": "Información accesible.",
+                    "B": "Consistencia.",
+                    "C": "Sencillez de navegación.",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas.\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Los parámetros subjetivos de una interfaz:\r",
+                "opciones": {
+                    "A": "Elementos no contabilizables que mejoran o empeoran la experiencia del usuario como pueden ser las paletas de colores, la sobrecarga o ausencia de imagen, etc. La elección de estos parámetros dependerá en gran medida de los usuarios esperados y la temática de la interfaz.",
+                    "B": "Elementos contabilizables que mejoran o empeoran la experiencia del usuario como pueden ser las paletas de colores, la sobrecarga o ausencia de imagen, etc. La elección de estos parámetros dependerá en gran medida de los usuarios esperados y la temática de la interfaz.",
+                    "C": "Elementos no contabilizables que mejoran o empeoran la experiencia del usuario exceptuando las paletas de colores y la sobrecarga o ausencia de imagen.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Elementos no contabilizables que mejoran o empeoran la experiencia del usuario como pueden ser las paletas de colores, la sobrecarga o ausencia de imagen, etc. La elección de estos parámetros dependerá en gran medida de los usuarios esperados y la temática de la interfaz.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "Los principios de la W3C son:\r",
+                "opciones": {
+                    "A": "Tres entre ellos está la implementación.",
+                    "B": "Cuatro entre ellos está la evaluación.",
+                    "C": "Tres entre ellos está la perceptibilidad.",
+                    "D": "Cuatro entre ellos está la perceptibilidad."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Cuatro entre ellos está la perceptibilidad.\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "Qué organización crea estándares internacionales:\r",
+                "opciones": {
+                    "A": "ISE.",
+                    "B": "ISO.",
+                    "C": "ESO.",
+                    "D": "ISOS."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "ISO.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Según el estándar W3C el código de una aplicación debe ser robusto:\r",
+                "opciones": {
+                    "A": "Mentira, debe ser ligero para que el tamaño del archivo sea menor.",
+                    "B": "Verdad, con el fin de que no se produzcan fallos de compatibilidad.",
+                    "C": "Verdad, para que sea fácilmente compatible.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Verdad, con el fin de que no se produzcan fallos de compatibilidad.\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Un usuario anónimo:\r",
+                "opciones": {
+                    "A": "No posee ninguna identificación.",
+                    "B": "Posee una sesión que puede abrir.",
+                    "C": "Posee un acceso básico.",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "UNE 139803:2004:\r",
+                "opciones": {
+                    "A": "Estandarización del uso de actividades iterativas enfocadas en el usuario.",
+                    "B": "Nos otorga directrices para la creación de interfaces centradas en la web.",
+                    "C": "Define las especificaciones que debe poseer una interfaz de contenidos web en términos de accesibilidad para su uso por persona con discapacidad.",
+                    "D": "B y C son correctas."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Define las especificaciones que debe poseer una interfaz de contenidos web en términos de accesibilidad para su uso por persona con discapacidad.\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "WCAG 2.0 establece como requisitos:\r",
+                "opciones": {
+                    "A": "Páginas completas: Los requisitos se deben incluir en la totalidad de la página, la exclusión de una parte anula completamente los requisitos.",
+                    "B": "Culturales: Interpretación de símbolos debido a elementos culturales.",
+                    "C": "Efectividad: Determina el grado de éxito de la aplicación para guiar al usuario, se basa en su facilidad de uso, su intuitividad y su facilidad de aprendizaje para el usuario.",
+                    "D": "Todas son correctas."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Páginas completas: Los requisitos se deben incluir en la totalidad de la página, la exclusión de una parte anula completamente los requisitos.\r"
+            }
+        ]
+    },
+    {
+        "titulo": "UNIDAD GLOBAL: PRUEBA DE REPASO \r",
+        "preguntas": [
+            {
+                "numero": "1",
+                "pregunta": "\"padding\" te permite:\r",
+                "opciones": {
+                    "A": "Especificar la distancia entre los límites de las cajas.",
+                    "B": "Especificar el formato de los encabezados.",
+                    "C": "Especificar el tamaño de las sombras.",
+                    "D": "Especificar los bordes de las sombras."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Especificar la distancia entre los límites de las cajas.\r"
+            },
+            {
+                "numero": "2",
+                "pregunta": "A qué denominamos wireframe :\r",
+                "opciones": {
+                    "A": "Un tipo de elemento de unión entre índices.",
+                    "B": "Un tipo de boceto.",
+                    "C": "Un tipo de aplicación de corrección para páginas web.",
+                    "D": "Todas son incorrectas."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Un tipo de boceto.\r"
+            },
+            {
+                "numero": "3",
+                "pregunta": "A qué dos fases pueden pasar un proyecto tras la etapa de planificación:\r",
+                "opciones": {
+                    "A": "Diseño y puesta en producción.",
+                    "B": "Puesta en producción y mantenimiento.",
+                    "C": "Diseño e implementación.",
+                    "D": "Planificación y diseño."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Diseño e implementación.\r"
+            },
+            {
+                "numero": "4",
+                "pregunta": "Algoritmo que permite reducir el tamaño de un audio:\r",
+                "opciones": {
+                    "A": "Dalek.",
+                    "B": "HZF.",
+                    "C": "VBR.",
+                    "D": "Códec."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Códec.\r"
+            },
+            {
+                "numero": "5",
+                "pregunta": "Como se denomina el selector que utiliza este símbolo *:\r",
+                "opciones": {
+                    "A": "Selector descendente",
+                    "B": "Selector universal",
+                    "C": "Selector de clase",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Selector universal\r"
+            },
+            {
+                "numero": "6",
+                "pregunta": "Como se denomina la fase donde se lleva a la práctica los elementos planeados con anterioridad en el proceso de desarrollo de interfaces.\r",
+                "opciones": {
+                    "A": "Fase de desarrollo.",
+                    "B": "Fase de diseño",
+                    "C": "Fase de implementación.",
+                    "D": "Fase de puesta en producción"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Fase de implementación.\r"
+            },
+            {
+                "numero": "7",
+                "pregunta": "Con que propiedad cambiamos el estilo de nuestra fuente\r",
+                "opciones": {
+                    "A": "Font-weight.",
+                    "B": "Font-family",
+                    "C": "Font-style",
+                    "D": "Font-align."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Font-style\r"
+            },
+            {
+                "numero": "8",
+                "pregunta": "Cuál de estas no es un valor de transition-timing-function:\r",
+                "opciones": {
+                    "A": "Ease-in.",
+                    "B": "Ease-out-in.",
+                    "C": "Ease-out.",
+                    "D": "Ease-in-out."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Ease-out-in.\r"
+            },
+            {
+                "numero": "9",
+                "pregunta": "Cuál de estas no es una de las nuevas etiquetas de HTML5:\r",
+                "opciones": {
+                    "A": "article",
+                    "B": "section",
+                    "C": "mark",
+                    "D": "div"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "div\r"
+            },
+            {
+                "numero": "10",
+                "pregunta": "El atributo = [atributos*=\"valor\"] designa:\r",
+                "opciones": {
+                    "A": "Seleccionar aquellos elementos cuyo atributo empiece por el valor indicado.",
+                    "B": "Seleccionar aquellos elementos cuyo atributo termine por el valor indicado.",
+                    "C": "Seleccionar aquellos elementos cuyo atributo contenga el valor indicado.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Seleccionar aquellos elementos cuyo atributo contenga el valor indicado.\r"
+            },
+            {
+                "numero": "11",
+                "pregunta": "El atributo HREF se emplea para:\r",
+                "opciones": {
+                    "A": "Cambiar el formato de un texto.",
+                    "B": "Seleccionar la orientación de un texto.",
+                    "C": "Crear enlaces.",
+                    "D": "Todas las anteriores son incorrectas."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Crear enlaces.\r"
+            },
+            {
+                "numero": "12",
+                "pregunta": "El background-color se puede definir con qué sistema de color:\r",
+                "opciones": {
+                    "A": "Código hexadecimal.",
+                    "B": "Código RGB.",
+                    "C": "Nombre del color",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas.\r"
+            },
+            {
+                "numero": "13",
+                "pregunta": "El diseño gráfico:\r",
+                "opciones": {
+                    "A": "Cumple una función puramente estética.",
+                    "B": "Puede poseer funcionalidad dentro de la interfaz si se usa bien.",
+                    "C": "Es innecesario y debe evitarse.",
+                    "D": "Todas son incorrectas."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Puede poseer funcionalidad dentro de la interfaz si se usa bien.\r"
+            },
+            {
+                "numero": "14",
+                "pregunta": "El sketching:\r",
+                "opciones": {
+                    "A": "Es un diseño completo que se realiza tras el prototipo a ordenador.",
+                    "B": "Es un diseño, en papel u ordenador, que ya incluye los elementos que el prototipo contendrá.",
+                    "C": "Es un diseño inicial a ordenador que incluye los elementos y se realiza tras el wireframing.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Ninguna de las anteriores es correcta.\r"
+            },
+            {
+                "numero": "15",
+                "pregunta": "En el sistema RGB:\r",
+                "opciones": {
+                    "A": "Los tonos de los colores aditivos se numeran de 0 a 255.",
+                    "B": "Los tonos de los colores no aditivos se numeran de 0 a 255",
+                    "C": "Los tonos de los colores aditivos se numeran de 1 a 256.",
+                    "D": "Los tonos de los colores no aditivos se numeran de 1 a 256"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Los tonos de los colores aditivos se numeran de 0 a 255.\r"
+            },
+            {
+                "numero": "16",
+                "pregunta": "Gif:\r",
+                "opciones": {
+                    "A": "Es un formato de imagen que admite 24 bits de color.",
+                    "B": "Es un formato de imagen de gran tamaño.",
+                    "C": "Es un formato de imagen que admite animación.",
+                    "D": "Gif no es formato de imagen."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Es un formato de imagen que admite animación.\r"
+            },
+            {
+                "numero": "17",
+                "pregunta": "La compresión de la imagen:\r",
+                "opciones": {
+                    "A": "Produce siempre una pérdida de calidad.",
+                    "B": "Puede producir pérdida de calidad o no según el medio empleado y el formato.",
+                    "C": "No produce pérdida de calidad.",
+                    "D": "Produce pérdida de calidad, pero se puede recuperar si se descomprime."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Puede producir pérdida de calidad o no según el medio empleado y el formato.\r"
+            },
+            {
+                "numero": "18",
+                "pregunta": "La etiqueta CheckBox permite:\r",
+                "opciones": {
+                    "A": "Crear una lista desplegable.",
+                    "B": "Crear hipervínculos.",
+                    "C": "Crear opciones para marcar",
+                    "D": "Ninguna es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Crear opciones para marcar\r"
+            },
+            {
+                "numero": "19",
+                "pregunta": "La evaluación heurística:\r",
+                "opciones": {
+                    "A": "Es llevado a cabo por los propios usuarios.",
+                    "B": "Es llevado a cabo por profesionales.",
+                    "C": "Es llevado a cabo por usuarios beta tester.",
+                    "D": "No es un tipo de evaluación."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Es llevado a cabo por profesionales.\r"
+            },
+            {
+                "numero": "20",
+                "pregunta": "La propiedad de video que permite reproducir un video automáticamente:\r",
+                "opciones": {
+                    "A": "Autoplay.",
+                    "B": "Bucl.",
+                    "C": "Loop",
+                    "D": "Wmv."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Autoplay.\r"
+            },
+            {
+                "numero": "21",
+                "pregunta": "La propiedad transition nos permite:\r",
+                "opciones": {
+                    "A": "Introducir instrucciones @keyframes.",
+                    "B": "Modificar la velocidad entre los estados de animación.",
+                    "C": "Controlar las transiciones de los diferentes segmentos de una animación.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Modificar la velocidad entre los estados de animación.\r"
+            },
+            {
+                "numero": "22",
+                "pregunta": "La resolución se determina por:\r",
+                "opciones": {
+                    "A": "Las ppp.",
+                    "B": "Las ppc.",
+                    "C": "Las pcr.",
+                    "D": "Las ppp divididas por el tamaño de la imagen."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Las ppp.\r"
+            },
+            {
+                "numero": "23",
+                "pregunta": "Las clases de prototipo son:\r",
+                "opciones": {
+                    "A": "Ascendente, descendente y estacionario.",
+                    "B": "Evolutivo, elemental y hemisférico.",
+                    "C": "Lineal, oblicuo y circular.",
+                    "D": "Horizontal, vertical y diagonal."
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Horizontal, vertical y diagonal.\r"
+            },
+            {
+                "numero": "24",
+                "pregunta": "Las etiquetas < tr > determinan:\r",
+                "opciones": {
+                    "A": "Filas de tablas.",
+                    "B": "Columnas de tablas.",
+                    "C": "Encabezados.",
+                    "D": "Celdas individuales de tablas."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Filas de tablas.\r"
+            },
+            {
+                "numero": "25",
+                "pregunta": "Las zonas de una página web son:\r",
+                "opciones": {
+                    "A": "De navegación y de footer.",
+                    "B": "De índices y de menús.",
+                    "C": "De navegación y de cuerpo.",
+                    "D": "De navegación y de índices."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "De navegación y de cuerpo.\r"
+            },
+            {
+                "numero": "26",
+                "pregunta": "Los colores complementarios son los opuestos en un círculo cromático por su:\r",
+                "opciones": {
+                    "A": "Saturación.",
+                    "B": "Matiz.",
+                    "C": "Brillo.",
+                    "D": "Saturación, pero no son opuestos en el círculo sino contiguos."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Matiz.\r"
+            },
+            {
+                "numero": "27",
+                "pregunta": "Los colores seguros:\r",
+                "opciones": {
+                    "A": "Representación de los colores totales que el ojo humano es capaz de percibir.",
+                    "B": "Colores que no cambian su representación sin importar el navegador, sistema operativo o navegador.",
+                    "C": "No existen los colores seguros.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Colores que no cambian su representación sin importar el navegador, sistema operativo o navegador.\r"
+            },
+            {
+                "numero": "28",
+                "pregunta": "Los dos elementos que conforman una regla son:\r",
+                "opciones": {
+                    "A": "Bloques de declaración y bloques de estilo.",
+                    "B": "Selectores e identificadores.",
+                    "C": "Declaraciones y selectores.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Declaraciones y selectores.\r"
+            },
+            {
+                "numero": "29",
+                "pregunta": "Los selectores descendentes suelen emplearse:\r",
+                "opciones": {
+                    "A": "Por sí mismos.",
+                    "B": "En combinación con otros tipos de selectores.",
+                    "C": "No existen los selectores descendentes, se denominan ascendentes.",
+                    "D": "En combinación exclusivamente con los selectores universales."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "En combinación con otros tipos de selectores.\r"
+            },
+            {
+                "numero": "30",
+                "pregunta": "Los valores de la opacidad de color varían entre:\r",
+                "opciones": {
+                    "A": "0 y 1.",
+                    "B": "0 y 10.",
+                    "C": "1 y 10.",
+                    "D": "1 y 100"
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "0 y 1.\r"
+            },
+            {
+                "numero": "31",
+                "pregunta": "Para agregar el estilo definido de la siguiente manera \".ColorAzul\" Como lo asignaremos a una etiqueta.\r",
+                "opciones": {
+                    "A": "class=\"ColorAzul\"",
+                    "B": "class=\"#ColorAzul\"",
+                    "C": "id=\"ColorAzul\"",
+                    "D": "id=\".ColorAzul\""
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "class=\"ColorAzul\"\r"
+            },
+            {
+                "numero": "32",
+                "pregunta": "Para añadir una hoja de estilo externa a un documento HTML introduciremos:\r",
+                "opciones": {
+                    "A": "link rel=\"stylesheet\" media=\"archivo.css\"",
+                    "B": "link rel=\"css\" href=\"archivo.css\"",
+                    "C": "link rel=\"import\" media=\"archivo.css\"",
+                    "D": "link rel=\"stylesheet\" href=\"archivo.css\""
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "link rel=\"stylesheet\" href=\"archivo.css\"\r"
+            },
+            {
+                "numero": "33",
+                "pregunta": "Para asociar un tamaño a alguna propiedad de CSS que formato podemos utilizar\r",
+                "opciones": {
+                    "A": "Pixeles (px)",
+                    "B": "Medida de pantalla(cm,mm....)",
+                    "C": "Porcentaje de visualizador (%)",
+                    "D": "Todas las anteriores son correctas"
+                },
+                "respuesta_correcta": "D",
+                "texto_respuesta_correcta": "Todas las anteriores son correctas\r"
+            },
+            {
+                "numero": "34",
+                "pregunta": "Para cambiar el grosor de una línea con Text-decoration debe ir acompañado de:\r",
+                "opciones": {
+                    "A": "color.",
+                    "B": "style.",
+                    "C": "thickness.",
+                    "D": "Todas las anteriores son correctas."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "thickness.\r"
+            },
+            {
+                "numero": "35",
+                "pregunta": "Photoshop es una aplicación especializada en:\r",
+                "opciones": {
+                    "A": "La visualización de imágenes.",
+                    "B": "La edición de imágenes.",
+                    "C": "La creación de imágenes.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "La edición de imágenes.\r"
+            },
+            {
+                "numero": "36",
+                "pregunta": "Que propiedad nos permite controlar los diferentes segmentos de una animación.\r",
+                "opciones": {
+                    "A": "animation",
+                    "B": "transition",
+                    "C": "steps",
+                    "D": "Ninguna"
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "steps\r"
+            },
+            {
+                "numero": "37",
+                "pregunta": "Qué son los layouts:\r",
+                "opciones": {
+                    "A": "Son aplicaciones para la creación de páginas web.",
+                    "B": "Son diseños básicos, en papel, con los que establecer objetivos y jerarquías.",
+                    "C": "Bloques o partes comunes en el diseño de páginas web.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "C",
+                "texto_respuesta_correcta": "Bloques o partes comunes en el diseño de páginas web.\r"
+            },
+            {
+                "numero": "38",
+                "pregunta": "Según el estándar W3C el código de una aplicación debe ser robusto:\r",
+                "opciones": {
+                    "A": "Mentira, debe ser ligero para que el tamaño del archivo sea menor.",
+                    "B": "Verdad, con el fin de que no se produzcan fallos de compatibilidad.",
+                    "C": "Verdad, para que sea fácilmente compatible.",
+                    "D": "Ninguna de las anteriores es correcta."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Verdad, con el fin de que no se produzcan fallos de compatibilidad.\r"
+            },
+            {
+                "numero": "39",
+                "pregunta": "Señala la opción incorrecta sobre una imagen vectorizada:\r",
+                "opciones": {
+                    "A": "Está formada mediante un conjunto de puntos de color llamados píxeles.",
+                    "B": "Se recomienda para iconos",
+                    "C": "No perderá calidad cuando su tamaño se agrande o se acerque la imagen.",
+                    "D": "Ninguna de las anteriores."
+                },
+                "respuesta_correcta": "A",
+                "texto_respuesta_correcta": "Está formada mediante un conjunto de puntos de color llamados píxeles.\r"
+            },
+            {
+                "numero": "40",
+                "pregunta": "Si indicamos como Text-align:right el texto estará alineado a la:\r",
+                "opciones": {
+                    "A": "Izquierda.",
+                    "B": "Derecha.",
+                    "C": "Centrado.",
+                    "D": "Justificado."
+                },
+                "respuesta_correcta": "B",
+                "texto_respuesta_correcta": "Derecha.\r"
+            }
+        ]
+    }
+]
