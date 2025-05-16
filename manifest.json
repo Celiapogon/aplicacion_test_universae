@@ -1,0 +1,21 @@
+{
+  "name": "Test DAW - Universae",
+  "short_name": "Test DAW",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f3e5f5",
+  "theme_color": "#9c27b0",
+  "description": "Aplicación para practicar test de DAW de Universae.",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/vaca-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
